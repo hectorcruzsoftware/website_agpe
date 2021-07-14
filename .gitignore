@@ -1,0 +1,41 @@
+# Configuration WordPress ###
+/.htaccess
+wp-config.php
+
+ 
+# Sitemap files.
+/sitemap.xml
+/sitemap.xml.gz
+ 
+# Files in the root.
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.txt
+*.csv
+ 
+# WP dirs.
+wp-admin/*
+wp-includes/*
+ 
+# Ignore everything in the "wp-content" directory, except custom code.
+/wp-content/languages/*
+/wp-content/uploads/*
+/wp-content/plugins/*
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/wp-cache-config.php
+
+ 
+# Ignore node dependency directories.
+**/node_modules/
+ 
+# Ignore log files and databases.
+*.log
+*.sql
+*.sqlite
