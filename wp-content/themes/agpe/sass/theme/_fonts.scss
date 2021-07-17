@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*variables de fuente*/
+
+@function exponente($exponent) {
+    $value: 1;
+
+    @if $exponent>0 {
+        @for $i from 1 through $exponent {
+            $value: $value * 1.200;
+        }
+    }
+
+    @return $value;
+}
+
+
+$base: 16px !default;
+$small: $base / exponente(1);
+$smaller: $base / exponente(2);
+$h1-font-size: $base * exponente(5);
+$h2-font-size: $base * exponente(4);
+$h3-font-size: $base * exponente(3);
+$h4-font-size: $base * exponente(2);
+$h5-font-size: $base * exponente(1);
+$normal: $base;
+
+
+.normal {
+    font-size: $normal;
+}
+
+.small {
+    font-size: 14px !important;
+}
+
+.smaller {
+    font-size: $smaller;
+}
+
+.h1 {
+    font-size: $h1-font-size;
+}
+
+.h2 {
+    font-size: $h2-font-size;
+}
+
+.h3 {
+    font-size: $h3-font-size;
+}
+
+
+.h4 {
+    font-size: $h4-font-size;
+}
+
+
+.h5 {
+    font-size: $h5-font-size;
+}
