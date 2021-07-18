@@ -10,6 +10,10 @@
 }
 
 
+@mixin roboto_family {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*variables de fuente*/
 
 @function exponente($exponent) {
@@ -34,7 +38,6 @@ $h3-font-size: $base * exponente(3);
 $h4-font-size: $base * exponente(2);
 $h5-font-size: $base * exponente(1);
 $normal: $base;
-
 
 .normal {
     font-size: $normal;

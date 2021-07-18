@@ -51,3 +51,4 @@ $container = get_theme_mod('understrap_container_type');
 </body>
 
 </html>
+<script src="<?= get_template_directory_uri(); ?>/js/footer_home.js""></script>

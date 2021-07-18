@@ -34,50 +34,49 @@ $container = get_theme_mod('understrap_container_type');
 						<ul id="header-datos">
 							<li>
 								<a href="#">
-									<i class="fa fa-phone" aria-hidden="true"></i><span class="small">669 105 14 51</span>
+									<i class="fa fa-phone" aria-hidden="true"></i><span>669 105 14 51</span>
 							</li>
 							</a>
 							<li><a href="#">
-									<i class="fa fa-envelope" aria-hidden="true"></i> <span class="small">contacto@agpecontabilidad.com</span></li>
+									<i class="fa fa-envelope" aria-hidden="true"></i> <span>contacto@agpecontabilidad.com</span></li>
 							</a>
-							<li><span class="small">Permítenos poner nuestra experiencia a tu servicio. <a href="#"><span class="font-weight-bold text-secundario">¡Contáctanos!</span></a></span></li>
+							<li><span>Permítenos poner nuestra experiencia a tu servicio. <a href="#">¡<span class="font-weight-bold text-secundario">Contáctanos</span>!</a></span></li>
 						</ul>
 					</div>
 
 				</div>
 			</div>
 		</div>
-		<header>
+		<header class="">
 			<div class="container">
-				<div class="row align-items-center no-gutters">
-					<div class="col-sm-12 col-lg-5 text-center text-lg-left">
-						<a href="/" class="logo-agpe">
-							<img src="<?= get_template_directory_uri(); ?>/assets/images/logo_agpe_contabilidad.svg" alt="">
-						</a>
-					</div>
-					<div class="col-sm-12 col-lg-7">
-						<div id="wrapper-navbar" class="mt-md-3 mt-lg-0">
-							<nav id="main-nav" class="navbar navbar-expand-md" aria-labelledby="main-nav-label">
-								<button class="navbar-toggler mt-md-5" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap'); ?>">
-									<span class="navbar-toggler-icon"></span>
-								</button>
-								<?php
-								wp_nav_menu(
-									array(
-										'theme_location'  => 'primary',
-										'container_class' => 'collapse navbar-collapse',
-										'container_id'    => 'navbarNavDropdown',
-										'menu_class'      => 'navbar-nav',
-										'fallback_cb'     => '',
-										'menu_id'         => 'main-menu',
-										'depth'           => 2,
-										'walker'          => new Understrap_WP_Bootstrap_Navwalker()
-									)
-								);
-								?>
-							</nav><!-- .site-navigation -->
-						</div><!-- #wrapper-navbar end -->
-					</div>
-				</div>
+				<div id="wrapper-navbar">
+					<a href="/" class="logo-agpe">
+						<img src="<?= get_template_directory_uri(); ?>/assets/images/agpe.svg" alt="" id="logo-monocolor">
+						<img src="<?= get_template_directory_uri(); ?>/assets/images/logo_agpe_contabilidad.svg" alt="" id="logo-blue">
+					</a>
+					<nav id="main-nav" class="navbar navbar-expand-lg" aria-labelledby="main-nav-label">
+						<button id="btn-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap'); ?>">
+							<span class="icon-toggler" onclick="myFunction(this)">
+								<div class="bar1"></div>
+								<div class="bar2"></div>
+								<div class="bar3"></div>
+							</span>
+						</button>
+						<?php
+						wp_nav_menu(
+							array(
+								'theme_location'  => 'primary',
+								'container_class' => 'collapse navbar-collapse',
+								'container_id'    => 'navbarNavDropdown',
+								'menu_class'      => 'navbar-nav',
+								'fallback_cb'     => '',
+								'menu_id'         => 'main-menu',
+								'depth'           => 2,
+								'walker'          => new Understrap_WP_Bootstrap_Navwalker()
+							)
+						);
+						?>
+					</nav><!-- .site-navigation -->
+				</div><!-- #wrapper-navbar end -->
 			</div>
 		</header>
