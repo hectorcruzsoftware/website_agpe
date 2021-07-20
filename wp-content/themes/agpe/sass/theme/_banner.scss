@@ -1,88 +1,111 @@
-$url:'http://app.agpeweb/wp-content/themes/agpe/';
-
-
 #banner {
-    background-image: url($url+'assets/images/backhome.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
 
+    >div:first-of-type {
 
+        background-image: url($assets_path+'/images/backhome.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 738px;
 
-    #banner-contenido {
-        position: relative;
-        height: 638px;
-
-        h1 {
-            margin: 100px 0 28px 0;
-            font-weight: 700;
-            @extend .h1,
-            .montserrat;
-            color: #fff;
-        }
-
-        >p {
-            width: 50%;
-            font-weight: 300;
-            @extend .h5,
-            .roboto;
-            color: #fff;
-            line-height: 1.8rem;
-        }
-
-        >a {
-            position: relative;
-            @extend .roboto,
-            .h5;
-            top: 21px;
-            background-color: $secundario;
-            color: #fff;
-            text-decoration: none;
-            padding: 16px;
-            border-radius: 24px;
-        }
-
-
-        .datos-div {
-            position: relative;
-
-            .data {
-                display: flex;
-                position: absolute;
-                top: 150px;
+        #datos-banner {
+            p {
+                margin: 28px 0;
+                width: 50%;
+                font-weight: 300;
+                @extend .h5,
+                .roboto;
+                color: #fff;
+                line-height: 1.8rem;
 
                 @media (max-width: 992px) {
-                    flex-wrap: wrap;
-                    top: 0;
-					position: relative;
+                    width: 100%;
+                    font-size: $normal;
+                    margin: 0;
+                }
+            }
+
+            h1 {
+                font-weight: 700;
+                @extend .h1,
+                .montserrat;
+                color: #fff;
+                padding: 100px 0 0px 0;
+                line-height: 3.5rem;
+
+                @media (max-width: 767px) {
+                    font-size: $h3-font-size;
+                    line-height: 3rem;
+                    padding: 50px 0 0px 0;
+                }
+            }
+
+            a {
+                display: inline-block;
+                @extend .roboto,
+                .h5;
+                padding: 16px;
+                background-color: $secundario;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 24px;
+
+                @media (max-width: 992px) {
+                    margin: 21px 0;
                 }
 
-                div {
-                    height: 413px;
-                    @extend .normal;
-                    padding: 60px 20px;
-                    color: #fff;
-
-                    &.contador-actualizado {
-                        background-color: $primary;
-                    }
-
-                    &.contador-comprometido {
-                        background-color: $primary-800;
-                    }
-
-                    &.contador-confianza {
-                        background-color: $primary-900;
-                    }
+                &::after {
+                    font-family: "Font Awesome 5 Free";
+                    content: "\f1d8";
+                    padding-left: 14px;
                 }
             }
         }
-
-
     }
 
+    #cards {
+        margin-top: -250px;
 
 
+        @media (max-width: 992px) {
+            margin-top: -300px;
+        }
+
+        @media (max-width: 768px) {
+            margin-top: -350px;
+        }
+
+
+
+
+        >div {
+            display: flex;
+
+            @media (max-width: 992px) {
+                flex-wrap: wrap;
+
+            }
+
+            div {
+                height: 413px;
+                @extend .normal;
+                padding: 60px 20px;
+                color: #fff;
+
+                &.contador-actualizado {
+                    background-color: $primary;
+                }
+
+                &.contador-comprometido {
+                    background-color: $primary-800;
+                }
+
+                &.contador-confianza {
+                    background-color: $primary-900;
+                }
+            }
+        }
+    }
 
 }
