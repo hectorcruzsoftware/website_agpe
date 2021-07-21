@@ -87,7 +87,7 @@
 
             }
 
-            div {
+            >div {
                 height: 413px;
                 @extend .normal;
                 padding: 60px 20px;
@@ -95,6 +95,7 @@
 
                 &.contador-actualizado {
                     background-color: $primary;
+
                 }
 
                 &.contador-comprometido {
@@ -103,6 +104,23 @@
 
                 &.contador-confianza {
                     background-color: $primary-900;
+                }
+
+
+
+                .contenido {
+                    &::before {
+                        font-family: "Font Awesome 5 Free";
+                        content: "\f1d8";
+
+                        position: relative;
+                    }
+
+                    h3 {
+                        @extend .h3,
+                        .montserrat;
+                        font-weight: 400;
+                    }
                 }
             }
         }

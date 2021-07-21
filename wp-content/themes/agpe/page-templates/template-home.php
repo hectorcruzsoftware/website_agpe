@@ -40,19 +40,37 @@ get_header();
 				<div id="cards">
 					<div>
 						<div class="contador-actualizado">
-							<p>
-								Aplicamos un modelo de negocio contable vigente, mediante operaciones innovadoras que nos ayudan a mantener actualizada tu empresa para ir un paso adelante de las eventualidades financieras.
-							</p>
+							<div class="contenido">
+								<h3>
+									Contadores Actualizados
+								</h3>
+								<p>
+									Aplicamos un modelo de negocio contable vigente, mediante operaciones innovadoras que nos ayudan a mantener actualizada tu empresa para ir un paso adelante de las eventualidades financieras.
+								</p>
+							</div>
+
 						</div>
 						<div class="contador-comprometido">
-							<p>
-								Tenemos más de 10 años de experiencia en materia fiscal y contable por ello nos hemos convertido en los aliados en contabilidad de múltiples empresas, gracias al compromiso que ponemos en cada proyecto.
-							</p>
+							<div class="contenido">
+								<h3>
+									Comprometidos con tu empresa
+								</h3>
+								<p>
+									Aplicamos un modelo de negocio contable vigente, mediante operaciones innovadoras que nos ayudan a mantener actualizada tu empresa para ir un paso adelante de las eventualidades financieras.
+								</p>
+							</div>
+
 						</div>
 						<div class="contador-confianza">
-							<p>
-								A través de cada uno de nuestros servicios, brindamos una atención puntual y personalizada para garantizar resultados que se reflejan en el crecimiento y la rentabilidad de tu empresa.
-							</p>
+							<div class="contenido">
+								<h3>
+									Equipo de Confianza
+								</h3>
+								<p>
+									Aplicamos un modelo de negocio contable vigente, mediante operaciones innovadoras que nos ayudan a mantener actualizada tu empresa para ir un paso adelante de las eventualidades financieras.
+								</p>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -62,18 +80,23 @@ get_header();
 
 </section>
 
-<div class="container bg-warning">
-	<?php
-	for ($i = 0; $i < 100; $i++) {
-		# code...
-	?>
+<div class="container">
+	<div class="row">
+		<div class="col ">
+			<?php
+			for ($i = 0; $i < 100; $i++) {
+				# code...
+			?>
 
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum consectetur minima magni temporibus dignissimos est veniam eius harum neque facere, explicabo fuga odit laborum doloremque earum vel! Adipisci, voluptatem?
-		</p>
-	<?php
-	}
-	?>
+				<p class="bg-warning">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum consectetur minima magni temporibus dignissimos est veniam eius harum neque facere, explicabo fuga odit laborum doloremque earum vel! Adipisci, voluptatem?
+				</p>
+			<?php
+			}
+			?>
+		</div>
+	</div>
+
 </div>
 <?php
 get_footer();
