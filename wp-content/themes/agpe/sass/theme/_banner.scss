@@ -84,44 +84,70 @@
 
             @media (max-width: 992px) {
                 flex-wrap: wrap;
-
             }
 
             >div {
-                height: 413px;
+
                 @extend .normal;
-                padding: 60px 20px;
                 color: #fff;
 
-                &.contador-actualizado {
-                    background-color: $primary;
-
-                }
-
-                &.contador-comprometido {
-                    background-color: $primary-800;
-                }
-
-                &.contador-confianza {
-                    background-color: $primary-900;
-                }
-
-
-
                 .contenido {
-                    &::before {
-                        font-family: "Font Awesome 5 Free";
-                        content: "\f1d8";
+                    position: relative;
+                    padding: 60px 60px 60px 81px;
 
-                        position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 55px;
+                        left: 20px;
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 50px;
                     }
 
                     h3 {
                         @extend .h3,
                         .montserrat;
                         font-weight: 400;
+
+
+                        @media (max-width: 768px) {
+                            font-size: $h4-font-size;
+                        }
+
                     }
                 }
+
+                &.contador-actualizado {
+                    background-color: $primary;
+
+                    .contenido {
+                        &::before {
+                            content: "\f017";
+                        }
+                    }
+                }
+
+                &.contador-comprometido {
+                    background-color: $primary-800;
+
+                    .contenido {
+                        &::before {
+                            content: "\f256";
+                        }
+                    }
+                }
+
+                &.contador-confianza {
+                    background-color: $primary-900;
+
+                    .contenido {
+                        &::before {
+                            content: "\f164";
+                        }
+                    }
+                }
+
+
             }
         }
     }

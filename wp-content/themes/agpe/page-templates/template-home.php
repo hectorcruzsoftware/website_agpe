@@ -56,10 +56,9 @@ get_header();
 									Comprometidos con tu empresa
 								</h3>
 								<p>
-									Aplicamos un modelo de negocio contable vigente, mediante operaciones innovadoras que nos ayudan a mantener actualizada tu empresa para ir un paso adelante de las eventualidades financieras.
+									Tenemos más de 10 años de experiencia en materia fiscal y contable por ello nos hemos convertido en los aliados en contabilidad de múltiples empresas, gracias al compromiso que ponemos en cada proyecto.
 								</p>
 							</div>
-
 						</div>
 						<div class="contador-confianza">
 							<div class="contenido">
@@ -67,7 +66,7 @@ get_header();
 									Equipo de Confianza
 								</h3>
 								<p>
-									Aplicamos un modelo de negocio contable vigente, mediante operaciones innovadoras que nos ayudan a mantener actualizada tu empresa para ir un paso adelante de las eventualidades financieras.
+									A través de cada uno de nuestros servicios, brindamos una atención puntual y personalizada para garantizar resultados que se reflejan en el crecimiento y la rentabilidad de tu empresa.
 								</p>
 							</div>
 
@@ -84,10 +83,9 @@ get_header();
 	<div class="row">
 		<div class="col ">
 			<?php
-			for ($i = 0; $i < 100; $i++) {
+			for ($i = 0; $i < 10; $i++) {
 				# code...
 			?>
-
 				<p class="bg-warning">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum consectetur minima magni temporibus dignissimos est veniam eius harum neque facere, explicabo fuga odit laborum doloremque earum vel! Adipisci, voluptatem?
 				</p>
