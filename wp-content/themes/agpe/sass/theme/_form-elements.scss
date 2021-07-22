@@ -28,7 +28,7 @@
     }
 
     &:hover {
-        color: #fff;
+        color: red;
 
         &:before {
             width: 100%;
@@ -39,7 +39,6 @@
 }
 
 .btn-theme {
-
     padding: 8px 16px;
     background-color: $secundario;
     color: #fff;
@@ -48,7 +47,6 @@
     border: none;
     border-radius: 24px;
     @include btn-efect;
-
 }
 
 .btn-theme-big-icon {
