@@ -120,6 +120,8 @@ header {
                             &:hover {
                                 background-color: #fff;
                                 color: $secundario;
+
+
                             }
                         }
                     }
@@ -297,6 +299,7 @@ header {
 
                         &:hover {
                             color: $secundario !important;
+
                         }
 
                         &::after {
@@ -321,6 +324,9 @@ header {
                             background-color: $primary;
                             color: #fff;
 
+                            &:before {
+                                width: 0% !important;
+                            }
                         }
                     }
                 }
