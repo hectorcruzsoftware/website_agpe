@@ -43,3 +43,11 @@ if (class_exists('Jetpack')) {
 foreach ($understrap_includes as $file) {
 	require_once get_theme_file_path($understrap_inc_dir . $file);
 }
+
+
+
+function registrar_menus()
+{
+	register_nav_menu('sitios-interes', 'Sitios de interés');
+}
+add_action('init', 'registrar_menus');

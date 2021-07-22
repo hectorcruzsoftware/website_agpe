@@ -1,0 +1,77 @@
+footer {
+    padding: 70px 0;
+    background-color: $primary;
+    color: #fff;
+
+
+    #site-footer {
+        display: flex;
+        justify-content: space-between;
+
+        #logo-footer {
+            width: 201px;
+        }
+
+        @media (max-width: 992px) {
+            flex-wrap: wrap;
+
+            #logo-footer {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            display: block;
+
+            .dato:not(:first-child) {
+                padding-top: 21px;
+            }
+
+        }
+
+
+
+
+
+        .dato {
+            .menu {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    padding: 7px 0;
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+
+                        &:hover {
+                            color: $secundario;
+                        }
+                    }
+                }
+
+                &.datos-contacto {
+                    img {
+                        width: 36px;
+                    }
+                }
+
+                .redes-sociales {
+                    display: flex;
+                    justify-content: flex-start;
+
+                    a:not(:first-child) {
+                        margin-left: 14px;
+                    }
+                }
+            }
+
+            h5 {
+                @extend .h5;
+                @include family('Montserrat');
+                font-weight: 500;
+            }
+        }
+    }
+}

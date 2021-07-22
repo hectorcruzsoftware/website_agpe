@@ -308,10 +308,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-
-
 </section>
-
 
 
 <div class="container">
