@@ -2,8 +2,6 @@
     padding: 70px 0;
     color: $primary;
 
-
-
     h2 {
         font-weight: 600;
         @extend .h2;
@@ -28,5 +26,91 @@
         text-align: center;
         color: $secundario;
         font-weight: 500;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+
+
+#que-hacemos-en-agpe {
+    i {
+        font-size: 4rem;
+        padding-bottom: 21px;
+    }
+
+    h2 {
+        @extend .h2;
+        @include family('Montserrat');
+        font-weight: 600;
+    }
+
+
+    .servicios {
+        display: flex;
+        margin-top: 33px;
+        text-align: center;
+
+        @media (max-width: 992px) {
+            flex-wrap: wrap;
+        }
+
+        .servicio {
+            padding: 10px;
+
+
+            @media (min-width: 992px) {
+                &.border-card {
+                    border-left: 2px solid $bordes;
+                    border-right: 2px solid $bordes;
+                }
+            }
+
+            h3 {
+                @extend .h4;
+                font-weight: 700;
+            }
+
+            a {
+                margin-top: 21px;
+                display: block;
+                text-align: center;
+                color: $secundario;
+                font-weight: 500;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    #parte-1 {
+        color: $primary;
+        padding: 70px 0;
+        background-color: $bgbody;
+
+        .texto-info {
+            padding-top: 14px;
+            font-weight: 600 !important;
+        }
+    }
+
+    #parte-2 {
+        color: #fff;
+        padding: 70px 0;
+        background-image: url($assets_path+'/images/backhome.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        .servicio {
+            @media (min-width: 992px) {
+                &.border-card {
+                    border-left: 2px solid #fff;
+                    border-right: 2px solid #fff;
+                }
+            }
+        }
+
     }
 }

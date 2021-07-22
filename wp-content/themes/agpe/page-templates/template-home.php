@@ -105,7 +105,111 @@ get_header();
 	</div>
 </section>
 
+<section id="que-hacemos-en-agpe">
+	<div id="parte-1">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2>¿Qué hacemos en AGPE Contabilidad?</h2>
+					<p class="texto-info">
+						Somos un despacho contable calificado para emprender las labores relacionadas al área fiscal y contable. Nos hemos distinguido frente a la competencia por ser un despacho de contadores confiable, profesional y especializada al ofrecer servicios en CDMX integrales que adaptamos a las necesidades de cada uno de nuestros clientes.
+					</p>
 
+					<div class="servicios">
+						<div class="servicio">
+							<i class="fa fa-usd" aria-hidden="true"></i>
+							<h3>
+								Servicio de Contabilidad
+							</h3>
+							<p>
+								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
+							</p>
+							<p>
+								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
+							</p>
+							<a href="#">Conocer mas</a>
+						</div>
+						<div class="servicio border-card">
+							<i class="fa fa-folder-open-o" aria-hidden="true"></i>
+							<h3>
+								Consultoría Administrativa
+							</h3>
+							<p>
+								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
+							</p>
+							<p>
+								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
+							</p>
+							<a href="#">Conocer mas</a>
+						</div>
+						<div class="servicio">
+							<i class="fa fa-calculator" aria-hidden="true"></i>
+							<h3>
+								Consultoría Contable
+							</h3>
+							<p>
+								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
+							</p>
+							<p>
+								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
+							</p>
+							<a href="#">Conocer mas</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="parte-2">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="servicios">
+						<div class="servicio">
+							<i class="fa fa-university" aria-hidden="true"></i>
+							<h3>
+								Servicio de Contabilidad
+							</h3>
+							<p>
+								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
+							</p>
+							<p>
+								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
+							</p>
+							<a href="#">Conocer mas</a>
+						</div>
+						<div class="servicio border-card">
+							<i class="fa fa-gavel" aria-hidden="true"></i>
+							<h3>
+								Consultoría Administrativa
+							</h3>
+							<p>
+								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
+							</p>
+							<p>
+								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
+							</p>
+							<a href="#">Conocer mas</a>
+						</div>
+						<div class="servicio">
+							<i class="fa fa-wrench" aria-hidden="true"></i>
+							<h3>
+								Consultoría Contable
+							</h3>
+							<p>
+								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
+							</p>
+							<p>
+								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
+							</p>
+							<a href="#">Conocer mas</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 
