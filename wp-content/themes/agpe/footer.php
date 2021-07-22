@@ -51,4 +51,21 @@ $container = get_theme_mod('understrap_container_type');
 </body>
 
 </html>
-<script src="<?= get_template_directory_uri(); ?>/js/footer_home.js""></script>
+<script type="text/javascript">
+	function myFunction(x) {
+		x.classList.toggle("change");
+	}
+
+	jQuery(function($) {
+		var scroll_pos = 0;
+		jQuery(document).scroll(function() {
+			scroll_pos = $(this).scrollTop();
+			if (scroll_pos >
+				300) {
+				jQuery("header").addClass('estilos_header_on_scroll');
+			} else {
+				jQuery("header").removeClass('estilos_header_on_scroll');
+			}
+		});
+	});
+</script>

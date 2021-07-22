@@ -1,0 +1,32 @@
+#home-quienes-somos {
+    padding: 70px 0;
+    color: $primary;
+
+
+
+    h2 {
+        font-weight: 600;
+        @extend .h2,
+        .montserrat;
+        margin: 0;
+    }
+
+    img {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    p {
+        @extend .normal;
+        padding-top: 14px;
+        margin: 0;
+    }
+
+    a {
+        margin-top: 21px;
+        display: block;
+        text-align: center;
+        color: $secundario;
+        font-weight: 500;
+    }
+}

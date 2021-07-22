@@ -76,14 +76,44 @@ get_header();
 			</div>
 		</div>
 	</div>
-
 </section>
+
+
+<section id="home-quienes-somos">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-6">
+				<img src="<?= get_template_directory_uri(); ?>/assets/images/quienes-somos.svg" alt="">
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<h2>
+					¿Quienes Somos?
+				</h2>
+				<p>
+					Somos contadores públicos determinados. Por ello, buscamos que Despacho Contable México sea reconocido a nivel nacional, no sólo por ser prestadores de servicios en materia contable, sino por ser los mejores aliados para tu negocio o empresa, porque nos satisface crecer de la mano de nuestros clientes.
+				</p>
+				<p>
+					Ante los constantes cambios en las reformas fiscales, nace Despacho Contable México (DCM), un grupo de contadores públicos totalmente profesionales en la Ciudad de México, quienes compartimos como misión laboral la firme convicción de ofrecer soluciones efectivas y asesoramiento contable y fiscal a cada uno de nuestros clientes, bajo la garantía de recibir una atención personalizada y especializada.
+				</p>
+				<p>
+					Nuestra experiencia en el ramo de la contabilidad en México nos ha otorgado la capacidad de facilitar las relaciones que involucran al fisco y a los contribuyentes. Nuestra calidad, honestidad, confidencialidad, integridad y constancia nos han llevado a mantener una línea de trabajo comprometida y transparente. </p>
+				<a href="#">
+					Conocer Más
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
 
 <div class="container">
 	<div class="row">
 		<div class="col ">
 			<?php
-			for ($i = 0; $i < 10; $i++) {
+			for ($i = 0; $i < 0; $i++) {
 				# code...
 			?>
 				<p class="bg-warning">

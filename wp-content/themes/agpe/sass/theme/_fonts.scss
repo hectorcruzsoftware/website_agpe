@@ -9,6 +9,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+$base: 16px !default;
+
+/*font size for root REM*/
+html {
+    font-size: $base !important;
+}
+
 
 @mixin roboto_family {
     font-family: 'Roboto', sans-serif;
@@ -29,7 +36,7 @@
 }
 
 
-$base: 16px !default;
+
 $small: $base / exponente(1);
 $smaller: $base / exponente(2);
 $h1-font-size: $base * exponente(5);
@@ -41,34 +48,42 @@ $normal: $base;
 
 .normal {
     font-size: $normal;
+    line-height: 1.5rem;
 }
 
 .small {
-    font-size: 14px !important;
+    font-size: $smaller;
+    line-height: 1.125rem;
 }
 
 .smaller {
     font-size: $smaller;
+    line-height: 1rem;
 }
 
 .h1 {
     font-size: $h1-font-size;
+    line-height: 3.5rem;
 }
 
 .h2 {
     font-size: $h2-font-size;
+    line-height: 2.75rem;
 }
 
 .h3 {
     font-size: $h3-font-size;
+    line-height: 2.5rem;
 }
 
 
 .h4 {
     font-size: $h4-font-size;
+    line-height: 2rem;
 }
 
 
 .h5 {
     font-size: $h5-font-size;
+    line-height: 1.5rem;
 }
