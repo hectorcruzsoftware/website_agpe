@@ -94,10 +94,11 @@ header {
 
                 &:last-child {
                     a {
-                        padding: 8px 16px;
-                        border-radius: 24px;
-                        background-color: $secundario;
-                        color: #fff;
+                        @extend .btn-theme;
+
+                        &:hover {
+                            color: #fff;
+                        }
                     }
                 }
 
