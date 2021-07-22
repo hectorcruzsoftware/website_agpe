@@ -82,10 +82,10 @@ get_header();
 <section id="home-quienes-somos">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-md-6">
+			<div class="col-sm-12 col-xl-6">
 				<img src="<?= get_template_directory_uri(); ?>/assets/images/quienes-somos.svg" alt="">
 			</div>
-			<div class="col-sm-12 col-md-6">
+			<div class="col-sm-12 col-xl-6">
 				<h2>
 					¿Quienes Somos?
 				</h2>

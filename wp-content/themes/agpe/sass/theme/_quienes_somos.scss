@@ -6,8 +6,8 @@
 
     h2 {
         font-weight: 600;
-        @extend .h2,
-        .montserrat;
+        @extend .h2;
+        @include family('Montserrat');
         margin: 0;
     }
 

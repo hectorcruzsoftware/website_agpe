@@ -1,25 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
-
-.montserrat {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.roboto {
-    font-family: 'Roboto', sans-serif;
+@mixin family($fuente:'Roboto') {
+    font-family: $fuente, sans-serif;
 }
 
 $base: 16px !default;
 
-/*font size for root REM*/
-html {
-    font-size: $base !important;
-}
-
-
-@mixin roboto_family {
-    font-family: 'Roboto', sans-serif;
-}
 
 /*variables de fuente*/
 
@@ -35,8 +21,6 @@ html {
     @return $value;
 }
 
-
-
 $small: $base / exponente(1);
 $smaller: $base / exponente(2);
 $h1-font-size: $base * exponente(5);
@@ -46,44 +30,94 @@ $h4-font-size: $base * exponente(2);
 $h5-font-size: $base * exponente(1);
 $normal: $base;
 
+@mixin font-size($size:16px, $line:1, $weight:400) {
+    font-size: $size;
+    line-height: #{$line}rem;
+    font-weight: $weight;
+}
+
+/*font size for root REM*/
+html {
+    @include family;
+    @include font-size($normal, 1.5);
+}
+
+
 .normal {
-    font-size: $normal;
-    line-height: 1.5rem;
+    @include font-size($normal, 1.5);
 }
 
 .small {
-    font-size: $smaller;
-    line-height: 1.125rem;
+    @include font-size($small, 1.125);
 }
 
 .smaller {
-    font-size: $smaller;
-    line-height: 1rem;
+    @include font-size($smaller, 1);
 }
 
 .h1 {
-    font-size: $h1-font-size;
-    line-height: 3.5rem;
+    @include font-size($h1-font-size, 3.5, 700);
 }
 
 .h2 {
-    font-size: $h2-font-size;
-    line-height: 2.75rem;
+    @include font-size($h2-font-size, 2.75, 700);
 }
 
 .h3 {
-    font-size: $h3-font-size;
-    line-height: 2.5rem;
+    @include font-size($h3-font-size, 2.5, 700);
 }
 
 
 .h4 {
-    font-size: $h4-font-size;
-    line-height: 2rem;
+    @include font-size($h4-font-size, 2, 600);
 }
 
 
 .h5 {
-    font-size: $h5-font-size;
-    line-height: 1.5rem;
+    @include font-size($h5-font-size, 1.5, 500);
+}
+
+/**ajustando fuentes para dispositivos pequeños */
+@media (max-width: 768px) {
+    .h1 {
+        @include font-size($h3-font-size, 2.5, 700);
+    }
+
+    .h2 {
+        @include font-size($h4-font-size, 2, 600);
+    }
+
+    .h3 {
+        @include font-size($h5-font-size, 1.5, 500);
+    }
+
+    .h4 {
+        @include font-size($normal, 1.5);
+    }
+
+    .h5 {
+        @include font-size($normal, 1.5);
+    }
+}
+
+@media (max-width: 992px) {
+    .h1 {
+        @include font-size($h2-font-size, 2.75, 700);
+    }
+
+    .h2 {
+        @include font-size($h3-font-size, 2.5, 700);
+    }
+
+    .h3 {
+        @include font-size($h4-font-size, 2, 600);
+    }
+
+    .h4 {
+        @include font-size($h5-font-size, 1.5, 500);
+    }
+
+    .h5 {
+        @include font-size($normal, 1.5);
+    }
 }

@@ -50,15 +50,11 @@ header {
 
 #wrapper-navbar {
     padding: 0;
-    @include roboto_family;
-    font-size: $normal;
     font-weight: 500;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
 
     #main-nav {
         padding: 0;
@@ -70,7 +66,6 @@ header {
             justify-content: space-between;
 
             >li {
-
                 a {
                     &:after {
                         position: relative;
@@ -276,7 +271,6 @@ header {
 
             #btn-toggler {
                 display: inline-block;
-
                 padding: 0;
             }
 
@@ -284,17 +278,13 @@ header {
                 >li {
                     ul {
                         width: 100%;
-
                         margin: 0;
                         border: 1px solid #fff;
 
                         li {
                             a {
                                 font-weight: 300;
-
-
                             }
-
                         }
                     }
 

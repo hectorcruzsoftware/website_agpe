@@ -14,10 +14,8 @@
                 margin: 28px 0;
                 width: 50%;
                 font-weight: 300;
-                @extend .h5,
-                .roboto;
+                @extend .h4;
                 color: #fff;
-                line-height: 1.8rem;
 
                 @media (max-width: 992px) {
                     width: 100%;
@@ -28,22 +26,20 @@
 
             h1 {
                 font-weight: 700;
-                @extend .h1,
-                .montserrat;
+                @extend .h1;
+                @include family('Montserrat');
                 color: #fff;
                 padding: 100px 0 0px 0;
 
                 @media (max-width: 767px) {
-                    font-size: $h3-font-size;
-                    line-height: 3rem;
                     padding: 50px 0 0px 0;
                 }
             }
 
             a {
                 display: inline-block;
-                @extend .roboto,
-                .h5;
+                @include family;
+                @extend .h5;
                 padding: 16px;
                 background-color: $secundario;
                 color: #fff;
@@ -81,13 +77,13 @@
         >div {
             display: flex;
 
-            @media (max-width: 992px) {
+            @media (max-width: 1200px) {
                 flex-wrap: wrap;
             }
 
             >div {
 
-                @extend .normal;
+
                 color: #fff;
 
                 .contenido {
@@ -97,22 +93,20 @@
                     &::before {
                         content: "";
                         position: absolute;
-                        top: 55px;
+                        top: 80px;
                         left: 20px;
                         font-family: "Font Awesome 5 Free";
                         font-size: 50px;
                     }
 
                     h3 {
-                        @extend .h3,
-                        .montserrat;
+                        @extend .h3;
+                        @include family('Montserrat');
                         font-weight: 400;
-
 
                         @media (max-width: 768px) {
                             font-size: $h4-font-size;
                         }
-
                     }
                 }
 
