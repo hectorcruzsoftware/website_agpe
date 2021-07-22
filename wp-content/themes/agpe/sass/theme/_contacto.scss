@@ -1,0 +1,130 @@
+.btn-theme {
+    padding: 8px 16px;
+    background-color: $secundario;
+    color: #fff;
+    @extend .normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 24px;
+    margin: 15px 0;
+
+    &:hover {
+        background-color: $primary;
+    }
+}
+
+#contacto {
+    padding: 70px 0;
+    background-color: $bgbody;
+    color: $primary;
+
+    #form-contacto {
+        background-color: #fff;
+        padding: 30px;
+        width: 100%;
+    }
+
+
+    h3 {
+        @extend .h4;
+        font-weight: 500;
+        @include family('Montserrat');
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        border: 1px solid $bordes;
+        padding: 10px 15px;
+        @extend .normal;
+        font-weight: 400;
+        width: 100%;
+        color: $primary;
+        resize: none;
+
+        &:focus {
+            outline: none !important;
+            border-color: $primary !important;
+        }
+
+        &::placeholder {
+            color: $primary;
+        }
+    }
+
+    .input {
+        padding: 15px 0;
+
+        label {
+            font-weight: 500 !important;
+            margin-bottom: 7 !important;
+
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .input-check {
+        margin-top: 15px;
+
+        @media (min-width: 992px) {
+            margin-top: 42px;
+        }
+
+        display: flex;
+        align-items: center;
+
+        label {
+            position: relative;
+            width: 96%;
+            left: 10px;
+
+            @media (min-width: 992px) {
+                width: 90%;
+            }
+        }
+
+        a {
+            font-weight: 600;
+            text-decoration: none;
+
+            &:hover {
+                color: $secundario;
+            }
+        }
+    }
+
+
+    #datos-mapa {
+        padding: 30px 0;
+
+        .datos {
+            .dato {
+                display: flex;
+                align-items: center;
+
+                padding: 12px 0;
+
+                i {
+                    font-size: 1.5rem;
+                }
+            }
+
+            p {
+                margin: 0;
+                padding-left: 14px;
+            }
+        }
+
+        iframe {
+            padding-top: 21px;
+            width: 100%;
+            height: 450px;
+
+            @media (max-width: 768px) {
+                height: 250px;
+            }
+        }
+    }
+}
