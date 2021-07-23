@@ -73,14 +73,22 @@ header {
                 }
 
                 a {
-                    &:after {
-                        position: relative;
-                        color: $primary;
-                        font-size: 1.5rem;
 
-                        top: 5px;
-                        left: 5px;
+                    &.dropdown-toggle {
+                        &:after {
+                            position: relative;
+                            color: $primary;
+                            font-size: 1.5rem;
+                            font-family: "Font Awesome 5 Free";
+                            content: none;
+                            content: "\f1d8";
+                            top: 5px;
+                            left: 5px;
+                            -webkit-transition: all 400ms 0s ease-in-out;
+                            transition: all 400ms 0s ease-in-out;
+                        }
                     }
+
 
                     padding: 7px 8px;
 
@@ -90,8 +98,20 @@ header {
 
                         &::after {
                             color: $secundario;
+                            transition: 0.70s;
+                            -webkit-transition: 0.70s;
+                            -moz-transition: 0.70s;
+                            -ms-transition: 0.70s;
+                            -o-transition: 0.70s;
+                            -webkit-transform: rotate(180deg);
+                            -moz-transform: rotate(180deg);
+                            -o-transform: rotate(180deg);
+                            -ms-transform: rotate(180deg);
+                            transform: rotate(180deg);
                         }
                     }
+
+
                 }
 
 
@@ -185,6 +205,7 @@ header {
                     &::after {
                         color: $secundario !important;
                     }
+
                 }
 
                 &::after {
@@ -255,11 +276,17 @@ header {
 
 
 
-
+@mixin display_menu {
+    .dropdown-menu {
+        display: block;
+        top: 30px !important;
+    }
+}
 
 
 
 @media (max-width: 991px) {
+
     #wrapper-navbar {
         position: relative;
         width: 100%;
@@ -283,31 +310,53 @@ header {
 
             #main-menu {
                 >li {
+                    text-align: center;
+                    background-color: $primary;
+
                     ul {
                         width: 100%;
                         margin: 0;
                         border: 1px solid #fff;
 
                         li {
+                            text-align: center;
+
                             a {
                                 font-weight: 300;
+
                             }
                         }
                     }
 
                     a {
+                        &.dropdown-toggle:active {
+
+
+
+                            @include display_menu;
+
+
+                        }
+
                         width: 100%;
                         color: #fff !important;
                         padding: 14px 8px;
-                        background-color: $primary;
 
                         &:hover {
                             color: $secundario !important;
+
 
                         }
 
                         &::after {
                             color: #fff;
+                            top: 5px;
+                            left: 35%;
+
+                            &:active {
+                                background-color: red;
+                            }
+
                         }
                     }
 
@@ -360,19 +409,3 @@ header {
 }
 
 /*=====  End of Logotipo prinicipal  ======*/
-
-
-
-
-
-
-
-
-
-/*=============================================
-=            Banner paginas            =
-=============================================*/
-
-
-
-/*=====  End of Banner paginas  ======*/

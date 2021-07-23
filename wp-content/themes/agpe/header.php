@@ -68,6 +68,7 @@ $container = get_theme_mod('understrap_container_type');
 								'container_class' => 'collapse navbar-collapse',
 								'container_id'    => 'navbarNavDropdown',
 								'menu_class'      => 'navbar-nav',
+								'include_parent' => 1,
 								'fallback_cb'     => '',
 								'menu_id'         => 'main-menu',
 								'depth'           => 2,
