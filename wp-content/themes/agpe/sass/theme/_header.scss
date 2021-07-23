@@ -66,6 +66,12 @@ header {
             justify-content: space-between;
 
             >li {
+                &.active {
+                    &:not(:last-child) {
+                        border-bottom: 2px solid $secundario;
+                    }
+                }
+
                 a {
                     &:after {
                         position: relative;
@@ -88,9 +94,7 @@ header {
                     }
                 }
 
-                &.current_page_item {
-                    border-bottom: 2px solid $secundario;
-                }
+
 
                 &:last-child {
                     a {
@@ -356,3 +360,19 @@ header {
 }
 
 /*=====  End of Logotipo prinicipal  ======*/
+
+
+
+
+
+
+
+
+
+/*=============================================
+=            Banner paginas            =
+=============================================*/
+
+
+
+/*=====  End of Banner paginas  ======*/

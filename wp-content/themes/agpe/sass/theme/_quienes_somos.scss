@@ -114,3 +114,113 @@
 
     }
 }
+
+
+
+#quienes-somos-page {
+    .banner-page {
+        @extend .banner-style;
+        background-image: url($assets_path+'/images/quienes-somos.jpg');
+    }
+
+    .contenido {
+        padding: 70px 0;
+        color: $primary;
+
+        h2 {
+            +p {
+                padding: 21px 0 0 0;
+                font-weight: 700 !important;
+            }
+
+            @extend .h2;
+            @include family('Montserrat');
+            font-weight: 600;
+        }
+
+        p {
+            padding: 7px 0;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+    #agpe-valores {
+        background-color: $bgbody;
+
+        #valores {
+            display: flex;
+            justify-content: space-between;
+
+            @media (max-width: 992px) {
+                display: block;
+            }
+
+
+            .valor {
+                padding: 0 .8rem;
+
+                @media (max-width: 992px) {
+                    padding: 0;
+                    text-align: center;
+
+                    &:not(:first-child) {
+                        padding: 21px 0;
+                    }
+                }
+
+                h3 {
+                    text-align: center;
+                    @extend .h4;
+                    @include family('Montserrat');
+                    font-weight: 500;
+                }
+
+                p {
+                    padding: 21px 0 0 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+
+    #seccion-clientes {
+        h2 {
+            @extend .h2;
+            @include family('Montserrat');
+            font-weight: 600;
+        }
+
+        p {
+            padding: 21px 0;
+            font-weight: 400 !important;
+        }
+
+
+        #clientes {
+            display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+            @media (max-width: 768px) {
+                display: block;
+                text-align: center;
+
+                a {
+                    img {
+                        padding: 14px 0;
+                        width: 262px;
+                    }
+                }
+            }
+
+
+        }
+
+    }
+
+}

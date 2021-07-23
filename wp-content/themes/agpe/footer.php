@@ -10,6 +10,8 @@
 
 // Exit if accessed directly.
 defined('ABSPATH') || exit;
+
+get_template_part('templates_parts_site/contacto');
 ?><footer>
 	<div class="container">
 		<div class="row">
@@ -70,9 +72,12 @@ defined('ABSPATH') || exit;
 			</div>
 		</div>
 	</div>
-</footer><?php wp_footer();
+</footer>
+<?php
+wp_footer();
+?>
 
-			?></body>
+</body>
 
 </html>
 <script type="text/javascript">

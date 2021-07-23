@@ -139,3 +139,34 @@
     }
 
 }
+
+
+
+.banner-style {
+    color: #fff;
+    padding: 70px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        @extend .h1;
+        @include family('Montserrat');
+    }
+
+    p {
+        @extend .h4;
+        font-weight: 300;
+        width: 50%;
+        margin: 21px 0;
+
+        @media (max-width: 1200px) {
+            width: 100%;
+        }
+    }
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+    }
+}
