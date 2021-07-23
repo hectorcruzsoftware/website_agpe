@@ -313,8 +313,8 @@ header {
 
 
 
-                    &.current_page_item {
-                        border: none;
+                    &.active {
+                        border: none !important;
                     }
 
                     font-weight: 300;

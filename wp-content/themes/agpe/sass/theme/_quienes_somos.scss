@@ -97,7 +97,7 @@
     #parte-2 {
         color: #fff;
         padding: 70px 0;
-        background-image: url($assets_path+'/images/quehacemosbg.jpg');
+        background-image: url($assets_path+'/images/quienes-somos.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -203,20 +203,21 @@
 
         #clientes {
             display: flex;
- justify-content: space-between;
- align-items: center;
+            justify-content: space-between;
+            align-items: center;
 
             @media (max-width: 768px) {
                 display: block;
                 text-align: center;
+            }
 
-                a {
-                    img {
-                        padding: 14px 0;
-                        width: 262px;
-                    }
+            a {
+                img {
+                    padding: 14px 0;
+                    max-width: 204px;
                 }
             }
+
 
 
         }
