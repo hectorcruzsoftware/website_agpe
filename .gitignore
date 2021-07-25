@@ -39,6 +39,3 @@ wp-content/wp-cache-config.php
 *.log
 *.sql
 *.sqlite
-
-*.css.map
-*.css
