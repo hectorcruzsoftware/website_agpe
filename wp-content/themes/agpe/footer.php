@@ -77,7 +77,7 @@ defined('ABSPATH') || exit;
 		</span>
 	</div>
 </footer>
-<a href="#" id="whats"><img src="<?= get_template_directory_uri(); ?>/assets/images/whats.png" alt=""></a>
+<a href="#" id="whats"><img src="<?= get_template_directory_uri(); ?>/assets/images/WhatsApp.svg" alt=""></a>
 <?php
 wp_footer();
 ?>
