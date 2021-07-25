@@ -36,7 +36,7 @@ get_header();
 					<p>Somos contadores públicos determinados. Por ello, buscamos que Despacho Contable México sea reconocido a nivel nacional, no sólo por ser prestadores de servicios en materia contable, sino por ser los mejores aliados para tu negocio o empresa, porque nos satisface crecer de la mano de nuestros clientes.</p>
 				</div>
 				<div class="col-sm-12 col-xl-6">
-					<img src="<?= get_template_directory_uri(); ?>/assets/images/quienes-somos.svg" alt="">
+					<img src="<?= get_template_directory_uri(); ?>/assets/images/quienes-somos-img.jpg" alt="">
 				</div>
 				<div class="col">
 					<p>Somos contadores públicos determinados. Por ello, buscamos que Despacho Contable México sea reconocido a nivel nacional, no sólo por ser prestadores de servicios en materia contable, sino por ser los mejores aliados para tu negocio o empresa, porque nos satisface crecer de la mano de nuestros clientes.</p>

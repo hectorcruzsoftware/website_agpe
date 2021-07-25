@@ -83,7 +83,7 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-xl-6">
-				<img src="<?= get_template_directory_uri(); ?>/assets/images/quienes-somos.svg" alt="">
+				<img src="<?= get_template_directory_uri(); ?>/assets/images/quienes-somos-img.jpg" alt="">
 			</div>
 			<div class="col-sm-12 col-xl-6">
 				<h2>
