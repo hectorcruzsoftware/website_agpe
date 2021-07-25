@@ -54,7 +54,7 @@
     background-color: $secundario;
     color: #fff;
     @extend .h5;
-    font-weight: 400;
+    font-weight: 500;
     border: none;
     border-radius: 24px;
 
@@ -73,6 +73,7 @@
 }
 
 input[type=text],
+input[type=email],
 select,
 textarea {
     border: 1px solid $bordes;

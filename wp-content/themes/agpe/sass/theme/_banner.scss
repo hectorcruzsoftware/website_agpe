@@ -3,7 +3,7 @@
 
     >div:first-of-type {
 
-        background-image: url($assets_path+'/images/backhome.jpg');
+        background-image: url($assets_path+'images/backhome.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -19,8 +19,7 @@
 
                 @media (max-width: 992px) {
                     width: 100%;
-                    font-size: $normal;
-                    margin: 0;
+                    margin: 21px 0;
                 }
             }
 
@@ -55,16 +54,9 @@
     #cards {
         margin-top: -250px;
 
-
         @media (max-width: 992px) {
             margin-top: -300px;
         }
-
-        @media (max-width: 768px) {
-            margin-top: -350px;
-        }
-
-
 
 
         >div {

@@ -1,5 +1,5 @@
-footer {
-    padding: 70px 0;
+#footer-page {
+    padding-top: 70px;
     background-color: $primary;
     color: #fff;
 
@@ -34,9 +34,11 @@ footer {
 
 
         .dato {
+
             .menu {
                 list-style: none;
                 padding: 0;
+                margin-top: 14px;
 
                 li {
                     padding: 7px 0;
@@ -74,4 +76,21 @@ footer {
             }
         }
     }
+
+
+    #copyright-developer {
+        border-top: 1px solid #fff;
+        padding: 35px 0;
+        text-align: center;
+        margin-top: 14px;
+    }
+}
+
+
+
+#whats {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
 }

@@ -7,6 +7,11 @@
         @extend .h2;
         @include family('Montserrat');
         margin: 0;
+
+        // Medium devices (tablets, 768px and up)
+        @media (max-width:1200px) {
+            margin: 21px 0;
+        }
     }
 
     img {
@@ -48,7 +53,7 @@
 
     .servicios {
         display: flex;
-        margin-top: 33px;
+        margin-top: 45px;
         text-align: center;
 
         @media (max-width: 992px) {
@@ -71,6 +76,10 @@
                 font-weight: 700;
             }
 
+            @media (max-width: 992px) {
+                padding: 21px 0;
+            }
+
             a {
                 margin-top: 21px;
                 display: block;
@@ -79,6 +88,10 @@
                 font-weight: 500;
                 text-decoration: none;
                 cursor: pointer;
+            }
+
+            p {
+                margin-top: 21px;
             }
         }
     }
@@ -97,7 +110,7 @@
     #parte-2 {
         color: #fff;
         padding: 70px 0;
-        background-image: url($assets_path+'/images/quienes-somos.jpg');
+        background-image: url($assets_path+'images/quienes-somos.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -120,7 +133,7 @@
 #quienes-somos-page {
     .banner-page {
         @extend .banner-style;
-        background-image: url($assets_path+'/images/quienes-somos.jpg');
+        background-image: url($assets_path+'images/quienes-somos.jpg');
     }
 
     .contenido {
@@ -139,7 +152,7 @@
         }
 
         p {
-            padding: 7px 0;
+            padding: 10.5px 0;
         }
 
         img {
@@ -206,9 +219,15 @@
             justify-content: space-between;
             align-items: center;
 
+
             @media (max-width: 768px) {
                 display: block;
                 text-align: center;
+
+                a {
+                    display: block;
+                    margin: 14px 0;
+                }
             }
 
             a {

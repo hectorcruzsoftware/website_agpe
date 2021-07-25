@@ -10,9 +10,8 @@
 
 // Exit if accessed directly.
 defined('ABSPATH') || exit;
-
-get_template_part('templates_parts_site/contacto');
-?><footer>
+?>
+<footer id="footer-page">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -72,7 +71,13 @@ get_template_part('templates_parts_site/contacto');
 			</div>
 		</div>
 	</div>
+	<div id="copyright-developer">
+		<span>
+			© Copyright 2012 - 2020 | Despacho Contable México | Todos los derechos reservados | Contadores Públicos en CDMX
+		</span>
+	</div>
 </footer>
+<a href="#" id="whats"><img src="<?= get_template_directory_uri(); ?>/assets/images/whats.png" alt=""></a>
 <?php
 wp_footer();
 ?>

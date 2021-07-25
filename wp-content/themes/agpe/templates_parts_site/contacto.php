@@ -18,23 +18,21 @@
 										<input type="text" value="Jose juan velazquez">
 									</div>
 								</div>
-								<div class="col-sm-12 col-lg-6">
+								<div class="col-sm-12  col-lg-6">
 									<div class="input">
-										<label for=""><span>*</span>Nombre:</label>
-										<select name="" id="">
-											<option value="">Seleccione 1</option>
-										</select>
+										<label for=""><span>*</span>Email:</label>
+										<input type="email" value="Jose juan velazquez">
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input">
-										<label for=""><span>*</span>Nombre:</label>
+										<label for=""><span>*</span>Teléfono:</label>
 										<input type="text" value="Jose juan velazquez">
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input">
-										<label for=""><span>*</span>Nombre:</label>
+										<label for=""><span>*</span>Régimen Fiscal:</label>
 										<select name="" id="">
 											<option value="">Seleccione 1</option>
 										</select>
@@ -55,7 +53,7 @@
 								</div>
 								<div class="col-sm-12">
 									<div class="input">
-										<label for=""><span>*</span>Servicio de interés:</label>
+										<label for=""><span>*</span>Mensaje:</label>
 										<textarea name="" id="" cols="30" rows="3" placeholder="Ingrese su mensaje"></textarea>
 									</div>
 									<button type="submit" class="btn-theme">
