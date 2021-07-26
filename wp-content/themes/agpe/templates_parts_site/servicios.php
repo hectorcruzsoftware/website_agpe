@@ -27,8 +27,8 @@
 					if ($servicio_num == 3 && $current_uri != $uri_menu) {
 						break;
 					}
-					switch ($item_menu->ID) {
-						case 35:
+					switch ($item_menu->title) {
+						case 'Servicios de contabilidad':
 							$imagen = 'servicio2';
 							break;
 						case 36:
@@ -83,9 +83,10 @@
 						</div>
 					</div>
 	<?php
-					echo '<pre>';
-					//print_r($item_menu);
+					/*echo '<pre>';
+					print_r($item_menu);
 					echo '</pre>';
+					*/
 					$servicio_num++;
 				}
 			}
