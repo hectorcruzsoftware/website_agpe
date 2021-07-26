@@ -1,3 +1,59 @@
+#contacto-page {
+    .banner-page {
+        @extend .banner-style;
+        background-image: url($assets_path+'images/bg-servicios.jpg');
+    }
+
+    .contenido {
+        padding: 70px 0;
+        color: $primary;
+
+        .img-infografia {
+            width: 100%;
+            border-radius: 8px;
+
+            // Large devices (desktops, 992px and up)
+            @media (max-width: 992px) {
+                margin-top: 24px;
+            }
+        }
+
+        .card-servicio {
+            padding: 24px;
+            border: 1px solid $bordes;
+            border-radius: 8px;
+            border-left: 8px solid $secundario;
+
+            h3 {
+                @extend .h2;
+                @include family('Montserrat');
+                font-weight: 500;
+
+                // Large devices (desktops, 992px and up)
+                @media (max-width: 992px) {}
+            }
+
+            p {
+                margin: 21px 0;
+            }
+        }
+
+        .row {
+            padding: 21px 0;
+
+            &:first-child {
+                padding: 0px 0px 21px 0;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
 #contacto {
     padding: 70px 0;
     background-color: $bgbody;
