@@ -1,9 +1,9 @@
 @mixin btn-efect($color:$secundario) {
-
+    display: inline-block;
     position: relative;
     transition: all .2s;
-    overflow: hidden;
-    z-index: 1;
+    overflow: hidden !important;
+    z-index: 1 !important;
 
     &:after {
         content: '';
@@ -12,7 +12,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: -2;
+        z-index: -2 !important;
     }
 
     &:before {
@@ -24,7 +24,7 @@
         height: 100%;
         background-color: darken($color, 5%);
         transition: all .5s;
-        z-index: -1;
+        z-index: -1 !important;
     }
 
     &:hover {
@@ -39,6 +39,8 @@
 }
 
 .btn-theme {
+    z-index: 1 !important;
+    @include btn-efect;
     padding: 8px 16px;
     background-color: $secundario;
     color: #fff;
@@ -46,7 +48,7 @@
     font-weight: 500;
     border: none;
     border-radius: 24px;
-    @include btn-efect;
+    text-decoration: none !important;
 }
 
 .btn-theme-big-icon {
@@ -57,7 +59,6 @@
     font-weight: 500;
     border: none;
     border-radius: 24px;
-
     text-decoration: none;
 
     @include btn-efect;
@@ -67,7 +68,7 @@
         font-family: "Font Awesome 5 Free";
         content: "\f1d8";
         padding-left: 14px;
-        z-index: 1;
+        z-index: 2 !important;
     }
 
 }

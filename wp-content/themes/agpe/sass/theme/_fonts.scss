@@ -21,7 +21,8 @@ $base: 16px !default;
     @return $value;
 }
 
-$small: $base / exponente(1);
+//$small: $base / exponente(1);
+$small: 14px;
 $smaller: $base / exponente(2);
 $h1-font-size: $base * exponente(5);
 $h2-font-size: $base * exponente(4);
