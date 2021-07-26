@@ -9,52 +9,76 @@
 					<p>
 						Buscamos convertirnos en tus mejores aliados de negocio y poder <span class="font-weight-bold">llevar tu contabilidad y de tu empresa</span>.
 					</p>
-					<form action="" method="post">
+
+					<form action="" method="post" id="frmContacto">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12  col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Nombre:</label>
-										<input type="text" value="Jose juan velazquez">
+										<input type="text" value="Jose juan velazquez" id="txtNombre" name="txtNombre">
 									</div>
 								</div>
 								<div class="col-sm-12  col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Email:</label>
-										<input type="email" value="Jose juan velazquez">
+										<input type="email" value="hectorcrzprz@gmail.com" id="txtEmail" name="txtEmail">
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Teléfono:</label>
-										<input type="text" value="Jose juan velazquez">
+										<input type="text" value="6691617730" id="txtTelefono" name="txtTelefono">
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Régimen Fiscal:</label>
-										<select name="" id="">
+										<select name="SelRegimen" id="SelRegimen">
 											<option value="">Seleccione 1</option>
+											<option value="Persona Física">Persona Física</option>
+											<option value="Persona Moral">Persona Moral</option>
+											<option value="No lo tengo claro">No lo tengo claro</option>
 										</select>
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Servicio de interés:</label>
-										<select name="" id="">
+										<select name="sel Servicio" id="sel Servicio">
 											<option value="">Seleccione 1</option>
+
+											<?php
+											$menu_name = 'top-menu';
+											$array_menu = wp_get_nav_menu_items($menu_name);
+											$uri_menu = "/servicios";
+
+											foreach ($array_menu as $key => $value) {
+												/**aqui busco el menu que me interesa, el de servicios */
+												if ($value->url == $uri_menu) {
+													foreach ($array_menu as $item_menu) {
+														if ($item_menu->menu_item_parent == $value->ID) {
+											?>
+															<option value="<?= $item_menu->attr_title; ?>"><?= $item_menu->attr_title; ?></option>
+											<?php
+														}
+													}
+												}
+											}
+											?>
+											<option value="No lo tengo claro">No lo tengo claro</option>
 										</select>
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input-check">
-										<input type="checkbox" id="cbox1" value="first_checkbox"> <label> He leído el <a href="#">Aviso de privacidad</a> y deseo recibir información.</label><br>
+										<input type="checkbox" id="chkTerminos" name="chkTerminos" value="first_checkbox"> <label> He leído el <a href="#">Aviso de privacidad</a> y deseo recibir información.</label><br>
 									</div>
 								</div>
 								<div class="col-sm-12">
 									<div class="input">
 										<label for=""><span>*</span>Mensaje:</label>
-										<textarea name="" id="" cols="30" rows="3" placeholder="Ingrese su mensaje"></textarea>
+										<textarea name="txtMensaje" id="txtMensaje" cols="30" rows="3" placeholder="Ingrese su mensaje"></textarea>
 									</div>
 									<button type="submit" class="btn-theme">
 										Envíar Mensaje
