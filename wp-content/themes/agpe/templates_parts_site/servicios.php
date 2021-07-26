@@ -27,31 +27,31 @@
 					if ($servicio_num == 3 && $current_uri != $uri_menu) {
 						break;
 					}
-					switch ($item_menu->title) {
-						case 'Servicios de contabilidad':
+					switch ($item_menu->url) {
+						case '/servicio-de-contabilidad-en-mazatlan-sinaloa':
+							$imagen = 'servicio1';
+							break;
+						case '/consultoria-administrativa':
 							$imagen = 'servicio2';
 							break;
-						case 36:
+						case '/consultoria-fiscal':
 							$imagen = 'servicio3';
 							break;
-						case 72:
+						case '/regulacion-de-obligaciones-fiscales':
 							$imagen = 'servicio4';
 							break;
-						case 73:
+						case '/soporte-en-sistemas-contpaq':
 							$imagen = 'servicio5';
 							break;
-						case 74:
-							$imagen = 'servicio6';
-							break;
 						default:
-							$imagen = 'servicio1';
+							$imagen = 'servicio6';
 							break;
 					}
 	?>
 					<div>
 						<a href="<?= $item_menu->url; ?>"><img src="<?= get_template_directory_uri(); ?>/assets/images/<?= $imagen; ?>.jpg" alt=""></a>
 						<div>
-							<h3><a href="<?= $item_menu->url; ?>"><?= $item_menu->post_title; ?></a></h3>
+							<h3><a href="<?= $item_menu->url; ?>"><?= $item_menu->attr_title; ?></a></h3>
 							<?php
 							if ($current_uri == $uri_menu) {
 							?>
@@ -86,7 +86,7 @@
 					/*echo '<pre>';
 					print_r($item_menu);
 					echo '</pre>';
-					*/
+*/
 					$servicio_num++;
 				}
 			}
@@ -94,5 +94,4 @@
 		}
 	}
 	?>
-
 </section>
