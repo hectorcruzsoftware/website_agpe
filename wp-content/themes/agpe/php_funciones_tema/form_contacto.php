@@ -7,7 +7,7 @@ function form_enqueue_script()
 		'form-js',
 		get_theme_file_uri('src/js/form-contacto.js'),
 		array('jquery'),
-		time(),
+		1.0,
 		false
 	);
 
@@ -33,35 +33,37 @@ function enviar_form()
 
 	/**validacion del catpcha */
 
-	if ($array_form['g-recaptcha-response'] == '') {
-		$result = '<div class="alert alert-danger" role="alert">
+	if (!WP_DEBUG) {
+		if ($array_form['g-recaptcha-response'] == '') {
+			$result = '<div class="alert alert-danger" role="alert">
 		¡Error al enviar el mensaje, por favor reintente!
 		</div>';
-		wp_send_json_error($result);
-		wp_die();
-	} else {
-		$obj = new stdClass();
-		$obj->secret = RECAPTCHA_SECRET;
-		$obj->response = $array_form['g-recaptcha-response'];
-		$obj->remoteip = $_SERVER['REMOTE_ADDR'];
-		$url = 'https://www.google.com/recaptcha/api/siteverify';
-		$options = array(
-			'http' => array(
-				'header' => "Content-type: application/x-www-form-urlencoded\r\n",
-				'method' => 'POST',
-				'content' => http_build_query($obj)
-			)
-		);
-		$context = stream_context_create($options);
-		$result = file_get_contents($url, false, $context);
-
-		$validar = json_decode($result);
-		if (!$validar->success) {
-			$result = '<div class="alert alert-danger" role="alert">
-					¡Error al enviar el mensaje, por favor reintente!
-					</div>';
 			wp_send_json_error($result);
 			wp_die();
+		} else {
+			$obj = new stdClass();
+			$obj->secret = RECAPTCHA_SECRET;
+			$obj->response = $array_form['g-recaptcha-response'];
+			$obj->remoteip = $_SERVER['REMOTE_ADDR'];
+			$url = 'https://www.google.com/recaptcha/api/siteverify';
+			$options = array(
+				'http' => array(
+					'header' => "Content-type: application/x-www-form-urlencoded\r\n",
+					'method' => 'POST',
+					'content' => http_build_query($obj)
+				)
+			);
+			$context = stream_context_create($options);
+			$result = file_get_contents($url, false, $context);
+
+			$validar = json_decode($result);
+			if (!$validar->success) {
+				$result = '<div class="alert alert-danger" role="alert">
+					¡Error al enviar el mensaje, por favor reintente!
+					</div>';
+				wp_send_json_error($result);
+				wp_die();
+			}
 		}
 	}
 
@@ -262,6 +264,8 @@ function enviar_form()
 				</div>
 			</div>
 		</div>';
+
+			sleep(2);
 
 			$destinatario = $array_form['txtEmail'];
 			$asunto = 'AGPE CONTABILIDAD | INFORMACIÓN';

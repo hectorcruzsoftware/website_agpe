@@ -43,10 +43,6 @@
                 }
 
                 @extend .btn-theme-big-icon;
-
-                &::after {
-                    content: '\f0a5';
-                }
             }
         }
     }
@@ -75,8 +71,7 @@
                     position: relative;
                     padding: 60px 60px 60px 81px;
 
-                    &::before {
-                        content: "";
+                    i {
                         position: absolute;
                         top: 80px;
                         left: 20px;
@@ -93,36 +88,22 @@
                             font-size: $h4-font-size;
                         }
                     }
+
+                    p {
+                        margin-top: 7px;
+                    }
                 }
 
                 &.contador-actualizado {
                     background-color: $primary;
-
-                    .contenido {
-                        &::before {
-                            content: "\f017";
-                        }
-                    }
                 }
 
                 &.contador-comprometido {
                     background-color: $primary-800;
-
-                    .contenido {
-                        &::before {
-                            content: "\f256";
-                        }
-                    }
                 }
 
                 &.contador-confianza {
                     background-color: $primary-900;
-
-                    .contenido {
-                        &::before {
-                            content: "\f164";
-                        }
-                    }
                 }
 
 

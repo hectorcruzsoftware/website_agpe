@@ -47,8 +47,12 @@ jQuery(document).ready(function ($) {
 			},
 			complete: function () {
 				$("#loader").hide();
-				grecaptcha.reset();
 				$("#btn-submit").removeAttr("disabled");
+				try {
+					grecaptcha.reset();
+				} catch (error) {
+					//console.log(error);
+				}
 			},
 		});
 	});

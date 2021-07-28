@@ -19,26 +19,26 @@ defined('ABSPATH') || exit;
 								<div class="col-sm-12  col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Nombre:</label>
-										<input type="text" value="" id="txtNombre" name="txtNombre">
+										<input type="text" value="<?= WP_DEBUG ? 'Héctor Cruz' : ''; ?>" id="txtNombre" name="txtNombre">
 									</div>
 								</div>
 								<div class="col-sm-12  col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Email:</label>
-										<input type="email" value="" id="txtEmail" name="txtEmail">
+										<input type="email" value="<?= WP_DEBUG ? 'hectorcrzprz@gmail.com' : ''; ?>" id="txtEmail" name="txtEmail">
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Teléfono:</label>
-										<input type="text" value="" id="txtTelefono" name="txtTelefono">
+										<input type="text" value="<?= WP_DEBUG ? '6691345434' : ''; ?>" id="txtTelefono" name="txtTelefono">
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Régimen Fiscal:</label>
 										<select name="selRegimen" id="selRegimen">
-											<option value="">Seleccione 1</option>
+											<option value="<?= WP_DEBUG ? 'Persona de prueba' : ''; ?>">Seleccione 1</option>
 											<option value="Persona Física">Persona Física</option>
 											<option value="Persona Moral">Persona Moral</option>
 											<option value="No lo tengo claro">No lo tengo claro</option>
@@ -49,7 +49,7 @@ defined('ABSPATH') || exit;
 									<div class="input">
 										<label for=""><span>*</span>Servicio de interés:</label>
 										<select name="selServicio" id="selServicio">
-											<option value="">Seleccione 1</option>
+											<option value="<?= WP_DEBUG ? 'Servicio de pruebas' : ''; ?>">Seleccione 1</option>
 											<?php
 											$menu_name = 'top-menu';
 											$array_menu = wp_get_nav_menu_items($menu_name);
@@ -74,25 +74,31 @@ defined('ABSPATH') || exit;
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input-check">
-										<input type="checkbox" id="chkTerminos" name="chkTerminos" value="1"> <label> He leído el <a href="#">Aviso de privacidad</a> y deseo recibir información.</label><br>
+										<input type="checkbox" id="chkTerminos" name="chkTerminos" value="1" <?= WP_DEBUG ? 'checked' : ''; ?>> <label> He leído el <a href="#">Aviso de privacidad</a> y deseo recibir información.</label><br>
 									</div>
 								</div>
 								<div class="col-sm-12">
 									<div class="input">
 										<label for=""><span>*</span>Mensaje:</label>
-										<textarea name="txtMensaje" id="txtMensaje" cols="30" rows="3" placeholder="Ingrese su mensaje"></textarea>
+										<textarea name="txtMensaje" id="txtMensaje" cols="30" rows="3" placeholder="Ingrese su mensaje"><?= WP_DEBUG ? 'Mensaje de prueba' . time() : ''; ?></textarea>
 									</div>
 								</div>
-								<div class="col-sm-12">
-									<div class="input">
-										<div class="g-recaptcha" data-sitekey="6LcEo8UbAAAAAK_QGygMkLZnXpAd5IvIwwG5aYlT"></div>
+								<?php
+								if (!WP_DEBUG) {
+								?>
+									<div class="col-sm-12">
+										<div class="input">
+											<div class="g-recaptcha" data-sitekey="6LcEo8UbAAAAAK_QGygMkLZnXpAd5IvIwwG5aYlT"></div>
+										</div>
 									</div>
-								</div>
+								<?php
+								}
+								?>
 								<div class="col-sm-12">
 									<button type="submit" id="btn-submit">
 										Envíar Mensaje
 									</button>
-									<img id="loader" src="https://46.festivalcervantino.gob.mx/assets/images/ajax-loader-2.gif" alt="">
+									<img id="loader" src="<?= get_template_directory_uri() ?>/assets/images/spinner.gif" alt="">
 								</div>
 
 								<div class="col-12">

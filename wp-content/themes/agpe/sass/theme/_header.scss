@@ -117,7 +117,7 @@ header {
                             right: 5px;
                             padding: 12px;
                             font-family: "Font Awesome 5 Free";
-                            content: "\f054";
+                            content: "\f054" !important;
                             font-weight: 600;
                             color: $primary;
                         }
@@ -156,10 +156,10 @@ header {
                             }
 
                             font-family: "Font Awesome 5 Free";
-                            content: "\f078";
+                            content: "\f078" !important;
                             border: none;
                             position: relative;
-                            left: .4em;
+                            left: .6em;
                             top: .2em;
                             font-size: .8rem;
                             font-weight: 600;

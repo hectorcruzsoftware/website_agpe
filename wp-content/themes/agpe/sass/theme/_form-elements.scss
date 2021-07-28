@@ -63,14 +63,6 @@
 
     @include btn-efect;
 
-    &::after {
-        position: relative;
-        font-family: "Font Awesome 5 Free";
-        content: "\f1d8";
-        padding-left: 14px;
-        z-index: 2 !important;
-    }
-
 }
 
 input[type=text],

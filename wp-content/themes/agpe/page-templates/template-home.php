@@ -41,6 +41,7 @@ get_header();
 					<div>
 						<div class="contador-actualizado">
 							<div class="contenido">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
 								<h3>
 									Contadores Actualizados
 								</h3>
@@ -52,6 +53,7 @@ get_header();
 						</div>
 						<div class="contador-comprometido">
 							<div class="contenido">
+								<i class="fa fa-hand-paper-o" aria-hidden="true"></i>
 								<h3>
 									Comprometidos con tu empresa
 								</h3>
@@ -62,6 +64,7 @@ get_header();
 						</div>
 						<div class="contador-confianza">
 							<div class="contenido">
+								<i class="fa fa-thumbs-up" aria-hidden="true"></i>
 								<h3>
 									Equipo de Confianza
 								</h3>
@@ -182,19 +185,6 @@ get_header();
 							<i class="fa fa-gavel" aria-hidden="true"></i>
 							<h3>
 								Consultoría Administrativa
-							</h3>
-							<p>
-								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
-							</p>
-							<p>
-								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
-							</p>
-							<a href="#">Conocer mas</a>
-						</div>
-						<div class="servicio">
-							<i class="fa fa-wrench" aria-hidden="true"></i>
-							<h3>
-								Consultoría Contable
 							</h3>
 							<p>
 								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
