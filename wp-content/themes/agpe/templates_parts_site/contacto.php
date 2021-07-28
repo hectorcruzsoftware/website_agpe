@@ -1,3 +1,7 @@
+<?php
+// Exit if accessed directly.
+defined('ABSPATH') || exit;
+?>
 <section id="contacto">
 	<div class="container">
 		<div class="row">
@@ -9,8 +13,7 @@
 					<p>
 						Buscamos convertirnos en tus mejores aliados de negocio y poder <span class="font-weight-bold">llevar tu contabilidad y de tu empresa</span>.
 					</p>
-
-					<form action="" method="post" id="frmContacto">
+					<form method="post" id="frmContacto">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12  col-lg-6">
@@ -34,7 +37,7 @@
 								<div class="col-sm-12 col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Régimen Fiscal:</label>
-										<select name="SelRegimen" id="SelRegimen">
+										<select name="selRegimen" id="selRegimen">
 											<option value="">Seleccione 1</option>
 											<option value="Persona Física">Persona Física</option>
 											<option value="Persona Moral">Persona Moral</option>
@@ -45,9 +48,8 @@
 								<div class="col-sm-12 col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Servicio de interés:</label>
-										<select name="sel Servicio" id="sel Servicio">
+										<select name="selServicio" id="selServicio">
 											<option value="">Seleccione 1</option>
-
 											<?php
 											$menu_name = 'top-menu';
 											$array_menu = wp_get_nav_menu_items($menu_name);
@@ -72,7 +74,7 @@
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input-check">
-										<input type="checkbox" id="chkTerminos" name="chkTerminos" value="first_checkbox"> <label> He leído el <a href="#">Aviso de privacidad</a> y deseo recibir información.</label><br>
+										<input type="checkbox" id="chkTerminos" name="chkTerminos" value="1"> <label> He leído el <a href="#">Aviso de privacidad</a> y deseo recibir información.</label><br>
 									</div>
 								</div>
 								<div class="col-sm-12">
@@ -80,12 +82,27 @@
 										<label for=""><span>*</span>Mensaje:</label>
 										<textarea name="txtMensaje" id="txtMensaje" cols="30" rows="3" placeholder="Ingrese su mensaje"></textarea>
 									</div>
-									<button type="submit" class="btn-theme">
+								</div>
+								<div class="col-sm-12">
+									<div class="input">
+										<div class="g-recaptcha" data-sitekey="6LcEo8UbAAAAAK_QGygMkLZnXpAd5IvIwwG5aYlT"></div>
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<button type="submit" id="btn-submit">
 										Envíar Mensaje
 									</button>
+									<img id="loader" src="https://46.festivalcervantino.gob.mx/assets/images/ajax-loader-2.gif" alt="">
+								</div>
+
+								<div class="col-12">
+									<div id="resultado">
+
+									</div>
 								</div>
 							</div>
 						</div>
+
 					</form>
 				</div>
 			</div>

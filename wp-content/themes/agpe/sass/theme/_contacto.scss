@@ -67,7 +67,35 @@
         p {
             margin-top: 21px;
         }
+
+        button {
+            position: relative;
+            margin-top: 21px;
+            @extend .btn-theme;
+        }
+
+        .item-error {
+            position: absolute;
+            width: 100%;
+            left: 0px;
+            bottom: -8px;
+            @extend .small,
+            .text-danger;
+        }
+
     }
+
+    #resultado {
+        margin-top: 28px;
+    }
+
+    #loader {
+        position: absolute;
+        display: none;
+        top: -45px;
+        left: 100px;
+    }
+
 
 
     h3 {
@@ -79,19 +107,24 @@
 
     .input {
         padding: 15px 0;
+        position: relative;
 
         label {
             font-weight: 500 !important;
             margin-bottom: 7 !important;
 
             span {
+
                 font-weight: 700;
             }
         }
+
+
     }
 
     .input-check {
         margin-top: 15px;
+        position: relative;
 
         @media (min-width: 992px) {
             margin-top: 42px;
@@ -118,7 +151,13 @@
                 color: $secundario;
             }
         }
+
+        .item-error {
+            bottom: -15px !important;
+        }
     }
+
+
 
 
     #datos-mapa {

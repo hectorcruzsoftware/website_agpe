@@ -9,6 +9,9 @@
 // Exit if accessed directly.
 defined('ABSPATH') || exit;
 
+
+date_default_timezone_set('America/Mazatlan');
+
 // UnderStrap's includes directory.
 $understrap_inc_dir = 'inc';
 
@@ -51,3 +54,24 @@ function registrar_menus()
 	register_nav_menu('sitios-interes', 'Sitios de interés');
 }
 add_action('init', 'registrar_menus');
+
+
+
+/**agregando los settings para el mailer */
+add_action('phpmailer_init', 'my_phpmailer_example');
+function my_phpmailer_example($phpmailer)
+{
+	$phpmailer->isSMTP();
+	$phpmailer->Host       = SMTP_HOST;
+	$phpmailer->SMTPAuth   = SMTP_AUTH;
+	$phpmailer->Port       = SMTP_PORT;
+	$phpmailer->Username   = SMTP_USER;
+	$phpmailer->Password   = SMTP_PASS;
+	$phpmailer->SMTPSecure = SMTP_SECURE;
+	$phpmailer->From       = SMTP_FROM;
+	$phpmailer->FromName   = SMTP_NAME;
+}
+
+
+
+require_once(get_template_directory() . '/php_funciones_tema/form_contacto.php');
