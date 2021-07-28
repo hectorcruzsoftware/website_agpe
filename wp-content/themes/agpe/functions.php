@@ -9,9 +9,6 @@
 // Exit if accessed directly.
 defined('ABSPATH') || exit;
 
-
-date_default_timezone_set('America/Mazatlan');
-
 // UnderStrap's includes directory.
 $understrap_inc_dir = 'inc';
 

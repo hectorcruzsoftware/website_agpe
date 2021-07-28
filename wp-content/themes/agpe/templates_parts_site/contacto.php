@@ -19,19 +19,19 @@ defined('ABSPATH') || exit;
 								<div class="col-sm-12  col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Nombre:</label>
-										<input type="text" value="Jose juan velazquez" id="txtNombre" name="txtNombre">
+										<input type="text" value="" id="txtNombre" name="txtNombre">
 									</div>
 								</div>
 								<div class="col-sm-12  col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Email:</label>
-										<input type="email" value="hectorcrzprz@gmail.com" id="txtEmail" name="txtEmail">
+										<input type="email" value="" id="txtEmail" name="txtEmail">
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
 									<div class="input">
 										<label for=""><span>*</span>Teléfono:</label>
-										<input type="text" value="6691617730" id="txtTelefono" name="txtTelefono">
+										<input type="text" value="" id="txtTelefono" name="txtTelefono">
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">

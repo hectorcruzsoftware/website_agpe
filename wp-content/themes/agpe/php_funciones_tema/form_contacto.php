@@ -57,9 +57,6 @@ function enviar_form()
 
 		$validar = json_decode($result);
 		if (!$validar->success) {
-			wp_send_json_error('Captcha invalidoggggg');
-
-
 			$result = '<div class="alert alert-danger" role="alert">
 					¡Error al enviar el mensaje, por favor reintente!
 					</div>';
@@ -118,20 +115,8 @@ function enviar_form()
 		<?php
 			wp_send_json_error($result);
 		} else {
-			$destinatario = $array_form['txtEmail'];
-			$asunto = time() . 'AGPE CONTABILIDAD | INFORMACIÓN';
-			$cabeceras = array('Content-Type: text/html; charset=UTF-8');
 
-
-			/*ob_start();
-			include(get_template_directory() . '/templates_parts_site/email_registro.php');
-			$email_content = ob_get_contents();
-			$find = "%name%";
-			$replace = '12222';
-			str_replace($find, $replace, $email_content);
-			ob_get_clean();
-			*/
-
+			/**contenido html del correo de solicitud de informacion */
 			$email_content =
 				'<div style="
 				width: 100%;
@@ -278,6 +263,14 @@ function enviar_form()
 			</div>
 		</div>';
 
+			$destinatario = $array_form['txtEmail'];
+			$asunto = 'AGPE CONTABILIDAD | INFORMACIÓN';
+
+
+			$cabeceras = array(
+				'Content-Type: text/html; charset=UTF-8',
+				'Bcc:' . (WP_DEBUG ? '' : MAIL_CCB)
+			);
 
 			if (wp_mail($destinatario, $asunto, $email_content, $cabeceras)) {
 				$result = '<div class="alert alert-success" role="alert">
