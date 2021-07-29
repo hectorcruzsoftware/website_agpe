@@ -12,7 +12,7 @@ $(document).ready(function (e) {
 
 	/**ver sub menu en click en menu responsive */
 	$(".menu-item-has-children i").click(function () {
-		$(this).parent().toggleClass("ver");
+		$(this).parent().toggleClass("display_submenu");
 	});
 
 	/**cambio de menu fijo en scroll */
