@@ -49,6 +49,8 @@ if (!function_exists('understrap_scripts')) {
 		if (is_singular() && comments_open() && get_option('thread_comments')) {
 			wp_enqueue_script('comment-reply');
 		}
+
+		wp_enqueue_script('js-footer-agpe', get_template_directory_uri() . '/js/footer_home.js', array('jquery'), time(), true);
 	}
 } // End of if function_exists( 'understrap_scripts' ).
 

@@ -35,7 +35,7 @@ defined('ABSPATH') || exit;
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
-									<div class="input">
+									<div class="input select">
 										<label for=""><span>*</span>Régimen Fiscal:</label>
 										<select name="selRegimen" id="selRegimen">
 											<option value="<?= WP_DEBUG ? 'Persona de prueba' : ''; ?>">Seleccione 1</option>
@@ -46,7 +46,7 @@ defined('ABSPATH') || exit;
 									</div>
 								</div>
 								<div class="col-sm-12 col-lg-6">
-									<div class="input">
+									<div class="input select">
 										<label for=""><span>*</span>Servicio de interés:</label>
 										<select name="selServicio" id="selServicio">
 											<option value="<?= WP_DEBUG ? 'Servicio de pruebas' : ''; ?>">Seleccione 1</option>
