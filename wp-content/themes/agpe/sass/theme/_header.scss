@@ -50,10 +50,12 @@ header {
     color: $secundario;
 }
 
-.ver {
-    .dropdown-menu {
-        display: block;
-        top: 30px;
+.display_submenu {
+    @media (max-width: 992px) {
+        .dropdown-menu {
+            display: block;
+            top: 30px;
+        }
     }
 
     i {
@@ -98,8 +100,6 @@ header {
             justify-content: space-between;
 
             >li {
-
-                //aqui voy
                 @media (max-width: 992px) {
                     &.menu-item-has-children {
 
@@ -132,6 +132,22 @@ header {
                 }
 
                 i {
+                    @media (min-width: 992px) {
+                        &:hover {
+                            color: $secundario;
+                            transition: 0.40s;
+                            -webkit-transition: 0.40s;
+                            -moz-transition: 0.40s;
+                            -ms-transition: 0.40s;
+                            -o-transition: 0.40s;
+                            -webkit-transform: rotate(90deg);
+                            -moz-transform: rotate(90deg);
+                            -o-transform: rotate(90deg);
+                            -ms-transform: rotate(90deg);
+                            transform: rotate(90deg);
+                        }
+                    }
+
                     position: absolute;
                     top: 2px;
                     right: -25px;
@@ -141,6 +157,8 @@ header {
                     color: $primary;
                     -webkit-transition: all 300ms 0s ease-in-out;
                     transition: all 300ms 0s ease-in-out;
+
+
                 }
 
                 &:hover {
