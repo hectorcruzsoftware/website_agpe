@@ -13,7 +13,6 @@ defined('ABSPATH') || exit;
 
 get_header();
 ?>
-
 <section id="banner">
 	<div>
 		<div class="container">
@@ -28,7 +27,7 @@ get_header();
 							mauris donec sit morbi eget aliquam molestie. Molestie
 							libero nam in tempus, faucibus.
 						</p>
-						<a href="#">Ponenerme en contacto</a>
+						<a href="<?= get_permalink(ID_CONTACTO) ?>">Ponenerme en contacto</a>
 					</div>
 				</div>
 			</div>
@@ -100,7 +99,7 @@ get_header();
 				</p>
 				<p>
 					Nuestra experiencia en el ramo de la contabilidad en México nos ha otorgado la capacidad de facilitar las relaciones que involucran al fisco y a los contribuyentes. Nuestra calidad, honestidad, confidencialidad, integridad y constancia nos han llevado a mantener una línea de trabajo comprometida y transparente. </p>
-				<a href="#">
+				<a href="<?= get_permalink(ID_QUIENES_SOMOS) ?>">
 					Conocer Más
 				</a>
 			</div>
@@ -130,7 +129,7 @@ get_header();
 							<p>
 								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
 							</p>
-							<a href="#">Conocer mas</a>
+							<a href="<?= get_permalink(ID_SERVICIO_CONTABILIDAD) ?>">Conocer mas</a>
 						</div>
 						<div class="servicio border-card">
 							<i class="fa fa-folder-open-o" aria-hidden="true"></i>
@@ -143,12 +142,12 @@ get_header();
 							<p>
 								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
 							</p>
-							<a href="#">Conocer mas</a>
+							<a href="<?= get_permalink(ID_SERVICIO_CONSULTORIA_ADMINISTRATIVA) ?>">Conocer mas</a>
 						</div>
 						<div class="servicio">
 							<i class="fa fa-calculator" aria-hidden="true"></i>
 							<h3>
-								Consultoría Contable
+								Consultoría Fiscal
 							</h3>
 							<p>
 								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
@@ -156,7 +155,7 @@ get_header();
 							<p>
 								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
 							</p>
-							<a href="#">Conocer mas</a>
+							<a href="<?= get_permalink(ID_SERVICIO_CONSULTORIA_FISCAL) ?>">Conocer mas</a>
 						</div>
 					</div>
 				</div>
@@ -171,7 +170,7 @@ get_header();
 						<div class="servicio">
 							<i class="fa fa-university" aria-hidden="true"></i>
 							<h3>
-								Servicio de Contabilidad
+								Regulación de Obligaciones Fiscales
 							</h3>
 							<p>
 								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
@@ -179,12 +178,12 @@ get_header();
 							<p>
 								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
 							</p>
-							<a href="#">Conocer mas</a>
+							<a href="<?= get_permalink(ID_SERVICIO_REGULACION_FISCAL) ?>">Conocer mas</a>
 						</div>
 						<div class="servicio border-card">
 							<i class="fa fa-gavel" aria-hidden="true"></i>
 							<h3>
-								Consultoría Administrativa
+								Soporte en Sistemas Contpaq
 							</h3>
 							<p>
 								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
@@ -192,7 +191,7 @@ get_header();
 							<p>
 								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
 							</p>
-							<a href="#">Conocer mas</a>
+							<a href="<?= get_permalink(ID_SERVICIO_SOPORTE_CONTPAQ) ?>">Conocer mas</a>
 						</div>
 					</div>
 				</div>

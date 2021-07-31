@@ -63,6 +63,10 @@
                 }
 
                 &.datos-contacto {
+                    li {
+                        max-width: 320px !important;
+                    }
+
                     img {
                         width: 36px;
                     }
@@ -92,6 +96,20 @@
         padding: 35px 0;
         text-align: center;
         margin-top: 14px;
+
+        span {
+            display: block;
+            padding-top: 7px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                color: $secundario;
+            }
+        }
     }
 }
 

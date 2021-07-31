@@ -47,22 +47,19 @@ defined('ABSPATH') || exit;
 						);
 						?>
 					</div>
+
+
+
+
 					<div class="dato">
 						<h5>Contacto</h5>
 						<ul class="menu datos-contacto">
-							<li><a href="#">Contacto@agpecontabilidad.com</a> </li>
-							<li><a href="#">(669) 105 14 41</a></li>
-							<li><a href="#">Local #22 Plaza Las Torres, Av. Las Torres y <br> Paseo de los Olivos, C.P 82124 Mazatlán, Sin.</a></li>
+							<li><a href="mailto:<?= EMAIL; ?>" target="_new">Email: <?= EMAIL; ?></a> </li>
+							<li><a href="tel:+ <?= TELEFONO; ?>" target="_new">Teléfono: <?= TELEFONO_FORMATO; ?></a></li>
+							<li><a href="<?= GOOGLE_MAPS; ?>" target="_new"> <?= DIRECCION; ?></a></li>
 							<li>
 								<div class="redes-sociales">
-									<a href="#" target="_new"><img src="<?= get_template_directory_uri(); ?>/assets/images/facebook.svg" alt=""></a>
-									<?php
-									if (1 == 0) {
-									?>
-										<a href="#" target="_new"><img src="<?= get_template_directory_uri(); ?>/assets/images/facebook.svg" alt=""></a>
-									<?php
-									}
-									?>
+									<a href="<?= FACEBOOK; ?>" target="_new"><img src="<?= get_template_directory_uri(); ?>/assets/images/facebook.svg" alt=""></a>
 								</div>
 							</li>
 						</ul>
@@ -73,11 +70,14 @@ defined('ABSPATH') || exit;
 	</div>
 	<div id="copyright-developer">
 		<span>
-			© Copyright 2012 - 2020 | Despacho Contable México | Todos los derechos reservados | Contadores Públicos en CDMX
+			© Copyright 2021 | Despacho Contable México | Todos los derechos reservados | Contadores Públicos en CDMX
+		</span>
+		<span>
+			<a href="/aviso-de-privacidad">Aviso de privacidad</a> | <a href="/mapa-del-sitio">Mapa del sitio</a>
 		</span>
 	</div>
 </footer>
-<a href="#" id="whats"><img src="<?= get_template_directory_uri(); ?>/assets/images/WhatsApp.svg" alt=""></a>
+<a href="<?= WHATSAPP_MENSAJE_LINK ?>" id="whats" target="_new"><img src="<?= get_template_directory_uri(); ?>/assets/images/WhatsApp.svg" alt=""></a>
 <?php
 wp_footer();
 ?>

@@ -20,7 +20,7 @@ $(document).ready(function (e) {
 	var scroll_pos = 0;
 	$(document).scroll(function () {
 		scroll_pos = $(this).scrollTop();
-		if (scroll_pos > 300) {
+		if (scroll_pos > 200) {
 			$("header").addClass("estilos_header_on_scroll");
 		} else {
 			$("header").removeClass("estilos_header_on_scroll");

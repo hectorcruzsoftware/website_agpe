@@ -88,7 +88,7 @@ defined('ABSPATH') || exit;
 								?>
 									<div class="col-sm-12">
 										<div class="input">
-											<div class="g-recaptcha" data-sitekey="6LcEo8UbAAAAAK_QGygMkLZnXpAd5IvIwwG5aYlT"></div>
+											<div class="g-recaptcha" data-sitekey="<?= RECAPTCHA_PUBLIC; ?>"></div>
 										</div>
 									</div>
 								<?php
@@ -120,15 +120,15 @@ defined('ABSPATH') || exit;
 					<div class="datos">
 						<div class="dato">
 							<i class="fa fa-map-marker" aria-hidden="true"></i>
-							<p>Paseo de la Reforma 296, Juárez, 06600 Ciudad de México, CDMX</p>
+							<p><?= DIRECCION; ?></p>
 						</div>
 						<div class="dato">
 							<i class="fa fa-phone" aria-hidden="true"></i>
-							<p>(6691) 05 14 51</p>
+							<p><?= TELEFONO; ?></p>
 						</div>
 						<div class="dato">
 							<i class="fa fa-clock-o" aria-hidden="true"></i>
-							<p>Lun - Vie. 09:00 am a 06:30 pm. Sábados 09:00 am a 01:00 pm.</p>
+							<p><?= HORARIO; ?></p>
 						</div>
 					</div>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.4742894170977!2d-106.42007028502786!3d23.2622099848323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869f53dc2d831439%3A0x18ee8659a76e9d3b!2sAGPE%20CONTABILIDAD%20Y%20ADMINISTRACION!5e0!3m2!1ses-419!2smx!4v1626935907243!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

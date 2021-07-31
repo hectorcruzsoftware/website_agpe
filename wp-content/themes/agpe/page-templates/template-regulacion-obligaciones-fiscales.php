@@ -20,7 +20,7 @@ get_header();
 				<div class="col">
 					<h1>Servicio de Contabilidad en Mazatlán</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus velit dicta minima quo iure sed debitis nemo commodi quos voluptas, molestias ut ad magni! Laudantium et commodi repellendus ab.</p>
-					<a href="#" class="btn-theme-big-icon">Ponerme en contacto</a>
+					<a href="<?= get_the_permalink(ID_CONTACTO) ?>" class="btn-theme-big-icon">Ponerme en contacto</a>
 				</div>
 			</div>
 		</div>

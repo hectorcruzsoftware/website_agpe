@@ -51,6 +51,7 @@ defined('ABSPATH') || exit;
 							$imagen = 'servicio6';
 							break;
 					}
+					//print_r($item_menu);
 	?>
 					<div>
 						<a href="<?= $item_menu->url; ?>"><img src="<?= get_template_directory_uri(); ?>/assets/images/<?= $imagen; ?>.jpg" alt=""></a>

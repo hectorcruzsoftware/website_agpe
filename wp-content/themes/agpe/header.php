@@ -28,14 +28,14 @@ defined('ABSPATH') || exit;
 				<div class="col">
 					<ul id="header-datos">
 						<li>
-							<a href="#">
-								<i class="fa fa-phone" aria-hidden="true"></i><span>669 105 14 51</span>
+							<a href="tel:+ <?= TELEFONO; ?>">
+								<i class="fa fa-phone" aria-hidden="true"></i><span> <?= TELEFONO_FORMATO; ?></span>
 						</li>
 						</a>
-						<li><a href="#">
-								<i class="fa fa-envelope" aria-hidden="true"></i> <span>contacto@agpecontabilidad.com</span></li>
+						<li><a href="mailto:<?= EMAIL; ?>">
+								<i class="fa fa-envelope" aria-hidden="true"></i> <span><?= EMAIL; ?></span></li>
 						</a>
-						<li><span>Permítenos poner nuestra experiencia a tu servicio. <a href="#">¡<span class="font-weight-bold text-secundario">Contáctanos</span>!</a></span></li>
+						<li><span>Permítenos poner nuestra experiencia a tu servicio. <a href="<?= get_permalink(ID_CONTACTO); ?>">¡<span class="font-weight-bold text-secundario">Contáctanos</span>!</a></span></li>
 					</ul>
 				</div>
 
