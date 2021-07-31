@@ -1,4 +1,7 @@
-<?php if (WP_DEBUG) {
+<?php
+defined('ABSPATH') || exit;
+
+if (!WP_DEBUG) {
 
 
 	add_action('login_enqueue_scripts', 'login_recaptcha_script');
