@@ -71,5 +71,6 @@ function my_phpmailer_example($phpmailer)
 
 
 
+require_once(get_template_directory() . '/php_funciones_tema/seo_metas_tags.php');
 require_once(get_template_directory() . '/php_funciones_tema/form_contacto.php');
 require_once(get_template_directory() . '/php_funciones_tema/recaptcha_login.php');
