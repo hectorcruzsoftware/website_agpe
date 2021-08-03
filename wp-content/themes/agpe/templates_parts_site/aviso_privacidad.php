@@ -1,4 +1,4 @@
-<section class="aviso-privacidad aviso-modal">
+
 	<div class="contenido">
 		<div class="container">
 			<div class="row">
@@ -27,4 +27,4 @@
 			</div>
 		</div>
 	</div>
-</section>
+
