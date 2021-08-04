@@ -46,8 +46,8 @@ defined('ABSPATH') || exit;
 		<div class="container">
 			<div id="wrapper-navbar">
 				<a href="/" class="logo-agpe">
-					<img src="<?= get_template_directory_uri(); ?>/assets/images/agpe.svg" alt="" id="logo-monocolor">
-					<img src="<?= get_template_directory_uri(); ?>/assets/images/logo_agpe_contabilidad.svg" alt="" id="logo-blue">
+					<img src="<?= get_template_directory_uri(); ?>/assets/images/agpe-contabillidad-despacho-contable-en-mazatlan-fondo-obscuro.svg" alt="" id="logo-monocolor">
+					<img src="<?= get_template_directory_uri(); ?>/assets/images/agpe-contabillidad-despacho-contable-en-mazatlan-logotipo.svg" alt="" id="logo-blue">
 				</a>
 				<nav id="main-nav" class="navbar navbar-expand-lg" aria-labelledby="main-nav-label">
 					<button id="btn-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap'); ?>">
