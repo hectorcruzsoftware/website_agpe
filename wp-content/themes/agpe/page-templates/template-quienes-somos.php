@@ -20,7 +20,9 @@ get_header();
 			<div class="row">
 				<div class="col">
 					<h1>AGPE Contabilidad</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus velit dicta minima quo iure sed debitis nemo commodi quos voluptas, molestias ut ad magni! Laudantium et commodi repellendus ab.</p>
+					<p>
+						Somos un despacho contable en Mazatlán Sinaloa, con más de 5 años de experiencia asesorando a empresas en sus necesidades contables.
+					</p>
 					<a href="<?= get_the_permalink(ID_CONTACTO) ?>" class="btn-theme-big-icon">Ponerme en contacto</a>
 				</div>
 			</div>
@@ -30,7 +32,7 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-xl-6">
-					<h2>¿Quienes Somos?</h2>
+					<h2>Contadores públicos en Mazatlán Sinaloa</h2>
 					<p>Somos contadores públicos determinados. Por ello, buscamos que Despacho Contable México sea reconocido a nivel nacional, no sólo por ser prestadores de servicios en materia contable, sino por ser los mejores aliados para tu negocio o empresa, porque nos satisface crecer de la mano de nuestros clientes.</p>
 					<p>Somos contadores públicos determinados. Por ello, buscamos que Despacho Contable México sea reconocido a nivel nacional, no sólo por ser prestadores de servicios en materia contable, sino por ser los mejores aliados para tu negocio o empresa, porque nos satisface crecer de la mano de nuestros clientes.</p>
 					<p>Somos contadores públicos determinados. Por ello, buscamos que Despacho Contable México sea reconocido a nivel nacional, no sólo por ser prestadores de servicios en materia contable, sino por ser los mejores aliados para tu negocio o empresa, porque nos satisface crecer de la mano de nuestros clientes.</p>
