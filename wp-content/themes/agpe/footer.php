@@ -70,7 +70,7 @@ defined('ABSPATH') || exit;
 	</div>
 	<div id="copyright-developer">
 		<span>
-			© Copyright 2021 | Despacho Contable México | Todos los derechos reservados | Contadores Públicos en CDMX
+			© Copyright 2021 | Despacho <?= get_bloginfo('name'); ?> | Todos los derechos reservados | Contadores Públicos en Mazatlán Sinaloa
 		</span>
 		<span>
 			<a href="/aviso-de-privacidad">Aviso de privacidad</a> | <a href="/mapa-del-sitio">Mapa del sitio</a>

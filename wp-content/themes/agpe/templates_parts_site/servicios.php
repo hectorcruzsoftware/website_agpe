@@ -31,7 +31,7 @@ defined('ABSPATH') || exit;
 					//print_r($item_menu);
 	?>
 					<div>
-						<a href="<?= $item_menu->url; ?>"><img src="<?= get_template_directory_uri(); ?>/assets/images/<?= $imagen; ?>.jpg" alt=""></a>
+						<a href="<?= $item_menu->url; ?>"><img src="<?= get_template_directory_uri(); ?>/assets/images/<?= $imagen; ?>.jpg" alt="<?= $imagen; ?>"></a>
 						<div>
 							<h3><a href="<?= $item_menu->url; ?>"><?= $item_menu->attr_title; ?></a></h3>
 							<?php

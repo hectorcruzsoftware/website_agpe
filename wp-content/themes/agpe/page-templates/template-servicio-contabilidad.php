@@ -18,7 +18,7 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h1>Asesoría contable en Mazatlán Sinaloa</h1>
+					<h1>Asesoría contable <br> en Mazatlán Sinaloa</h1>
 					<p>
 						Con nuestra <strong>asesoría contable</strong> garantizamos que tu negocio o actividad puede trabajar y crecer sin conflictos con las autoridades.
 					</p>
