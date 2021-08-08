@@ -355,17 +355,23 @@
     @extend .h2;
     padding: 0px 0 70px 0;
     font-weight: 500;
+
+
 }
 
 .contpaqi {
+
+    width: 100% !important;
+
+
+
     img {
         max-width: 280px;
         position: absolute;
         left: 10%;
         top: -25px;
-    }
 
-    width: 100% !important;
+    }
 
     @media (max-width: 992px) {
         overflow-x: auto !important;
@@ -376,6 +382,47 @@
             top: -25px;
         }
     }
+
+
+    #contpaqi-nominas {
+        img {
+            max-width: 260px;
+
+            @media (max-width: 992px) {
+                max-width: 210px;
+                top: -30px;
+            }
+        }
+    }
+
+    #contpaqi-bancos {
+        img {
+            max-width: 230px;
+
+            @media (max-width: 992px) {
+                max-width: 200px;
+                top: -35px;
+            }
+        }
+    }
+
+
+    #contpaqi-xml-en-linea {
+        img {
+            max-width: 280px;
+
+            @media (max-width: 992px) {
+                max-width: 230px;
+                top: -35px;
+            }
+        }
+    }
+
+
+
+
+
+
 
 
     .blue-light {
@@ -449,5 +496,17 @@
                 background-color: #B3B3B3;
             }
         }
+    }
+}
+
+#btn-download-contpaqi {
+    display: block;
+    @extend .btn-theme;
+    text-align: center;
+    margin: 70px 0 0 auto;
+
+    a {
+        text-decoration: none;
+        color: #fff;
     }
 }

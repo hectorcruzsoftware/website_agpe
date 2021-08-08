@@ -50,106 +50,351 @@ get_header();
 			</div>
 			<div class="row">
 				<div class="col-12">
-
 					<h2 class="header-contpaqi">Precios de CONTPAQi 2021 en Mazatlán Sinaloa</h2>
 					<div class="contpaqi">
-						<?php
-						for ($i = 0; $i < 8; $i++) {
+						<table id="contpaqi-contabilidad">
+							<thead>
+								<tr>
+									<th colspan="2">
+										<img src="<?= get_template_directory_uri(); ?>/assets/images/contpaqi/precio_de_contpaqi_contabilidad_mazatlan_sinaloa.png" alt="Precio de CONTPAQi Contabilidad en Mazatlán Sinaloa" class="img-infografia">
+									</th>
+									<th>Precio base para <br> 1 usuario</th>
+									<th>Precio por usuario adicional <br> en red</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="2" class="blue-light">
+										LICENCIAMIENTO <br>
+										ANUAL
+									</td>
+									<td>
+										Licencia nueva
+									</td>
+									<td>
+										$4,190.00
+									</td>
+									<td>
+										$1,190.00
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Renovación
+									</td>
+									<td>
+										$4,090.00
+									</td>
+									<td>
+										$1,190.00
 
-						?>
-							<table>
-								<thead>
-									<tr>
-										<th colspan="2">
-											<img src="<?= get_template_directory_uri(); ?>/assets/images/contpaqi/precio_de_contpaqi_contabilidad_mazatlan_sinaloa.png" alt="Precio de CONTPAQi Contabilidad en Mazatlán Sinaloa" class="img-infografia">
-										</th>
-										<th>Precio base para <br> 1 usuario</th>
-										<th>Precio por usuario adicional <br> en red</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td rowspan="2" class="blue-light">
-											LICENCIAMIENTO <br>
-											ANUAL
-										</td>
-										<td>
-											Licencia nueva
-										</td>
-										<td>
-											$4,190.00
-										</td>
-										<td>
-											$1,190.00
-										</td>
-									</tr>
-									<tr>
-										<td>
-											Renovación
-										</td>
-										<td>
-											$4,090.00
-										</td>
-										<td>
-											$1,190.00
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="3" class="blue-dark">
+										LICENCIAMIENTO <br>
+										TRADICIONAL
 
-										</td>
-									</tr>
-									<tr>
-										<td rowspan="3" class="blue-dark">
-											LICENCIAMIENTO <br>
-											TRADICIONAL
+									</td>
 
-										</td>
+									<td>
+										<strong>Actualización</strong>
+									</td>
+									<td>
+										<strong>$5,190.00</strong>
+									</td>
+									<td>
+										<strong>$1,290.00</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<strong>Actualización especial</strong>
+									</td>
+									<td>
+										<strong>$4,290.00</strong>
+									</td>
+									<td>
+										<strong>$1,190.00</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Usuario adicional <br>
+										<span class="small">(solo en crecimiento de usuario)</span>
+									</td>
+									<td>
+										N/A
+									</td>
+									<td>
+										$1,890.00
+									</td>
+								</tr>
 
-										<td>
-											<strong>Actualización</strong>
-										</td>
-										<td>
-											<strong>$5,190.00</strong>
-										</td>
-										<td>
-											<strong>$1,290.00</strong>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Actualización especial</strong>
-										</td>
-										<td>
-											<strong>$4,290.00</strong>
-										</td>
-										<td>
-											<strong>$1,190.00</strong>
-										</td>
-									</tr>
-									<tr>
-										<td>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="4">
+										Para contadores, fiscalistas, auditores, administradores y directores de todo perfil de empresas.
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+						<table id="contpaqi-nominas">
+							<thead>
+								<tr>
+									<th colspan="2">
+										<img src="<?= get_template_directory_uri(); ?>/assets/images/contpaqi/precio_de_contpaqi_nominas_mazatlan_sinaloa.png" alt="Precio de CONTPAQi Nóminas en Mazatlán Sinaloa" class="img-infografia">
+									</th>
+									<th>Precio base para <br> 1 usuario</th>
+									<th>Precio por usuario adicional <br> en red</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="4" class="blue-light">
+										LICENCIAMIENTO <br>
+										ANUAL
+									</td>
+									<td>
+										Licencia nueva 1 RFC
+									</td>
+									<td>
+										$3,890.00
+									</td>
+									<td>
+										$1,190.00
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Renovación 1 RFC
+									</td>
+									<td>
+										$3,790.00
+									</td>
+									<td>
+										$1,190.00
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Licencia nueva multi - RFC
+									</td>
+									<td>
+										$5,190.00
+									</td>
+									<td>
+										$1,290.00
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Renovación multi - RFC
+									</td>
+									<td>
+										$4,990.00
+									</td>
+									<td>
+										$1,290.00
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="3" class="blue-dark">
+										LICENCIAMIENTO <br>
+										TRADICIONAL
+
+									</td>
+
+									<td>
+										<strong>Actualización</strong>
+									</td>
+									<td>
+										<strong>$6,090.00</strong>
+									</td>
+									<td>
+										<strong>$1,590.00</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<strong>Actualización especial</strong>
+									</td>
+									<td>
+										<strong>$4,990.00</strong>
+									</td>
+									<td>
+										<strong>$1,390.00</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Usuario adicional <br>
+										<span class="small">(solo en crecimiento de usuario)</span>
+									</td>
+									<td>
+										N/A
+									</td>
+									<td>
+										$1,890.00
+									</td>
+								</tr>
+
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="4">
+										Para noministas, contadores y encargados de recursos humanos de todo perfil de empresas.
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+						<table id="contpaqi-bancos">
+							<thead>
+								<tr>
+									<th colspan="2">
+										<img src="<?= get_template_directory_uri(); ?>/assets/images/contpaqi/precio_de_contpaqi_bancos_mazatlan_sinaloa.png" alt="Precio de CONTPAQi Bancos en Mazatlán Sinaloa" class="img-infografia">
+									</th>
+									<th>Precio base para <br> 1 usuario</th>
+									<th>Precio por usuario adicional <br> en red</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="2" class="blue-light">
+										LICENCIAMIENTO <br>
+										ANUAL
+									</td>
+									<td>
+										Licencia nueva
+									</td>
+									<td>
+										$3,690.00
+									</td>
+									<td>
+										$1,090.00
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Renovación
+									</td>
+									<td>
+										$3,590.00
+									</td>
+									<td>
+										$1,090.00
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="3" class="blue-dark">
+										LICENCIAMIENTO <br>
+										TRADICIONAL
+									</td>
+
+									<td>
+										<strong>Actualización</strong>
+									</td>
+									<td>
+										<strong>$4,490.00</strong>
+									</td>
+									<td>
+										<strong>$1,190.00</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<strong>Actualización especial</strong>
+									</td>
+									<td>
+										<strong>$3,690.00</strong>
+									</td>
+									<td>
+										<strong>$1,090.00</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<strong>
 											Usuario adicional <br>
 											<span class="small">(solo en crecimiento de usuario)</span>
-										</td>
-										<td>
+										</strong>
+									</td>
+									<td>
+										<strong>
 											N/A
-										</td>
-										<td>
-											$1,890.00
-										</td>
-									</tr>
+										</strong>
+									</td>
+									<td>
+										<strong>
+											$1,690.00
+										</strong>
+									</td>
+								</tr>
 
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="4">
-											Para contadores, fiscalistas, auditores, administradores y directores de todo perfil de empresas.
-										</td>
-									</tr>
-								</tfoot>
-							</table>
-						<?php
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="4">
+										Para tesoreros, contadores, encargados de pagos, administradores y directores de todo perfil de empresas.
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+						<table id="contpaqi-xml-en-linea">
+							<thead>
+								<tr>
+									<th colspan="2">
+										<img src="<?= get_template_directory_uri(); ?>/assets/images/contpaqi/precio_de_contpaqi_xml_en_linea_mazatlan_sinaloa.png" alt="Precio de CONTPAQi XML en línea en Mazatlán Sinaloa" class="img-infografia">
+									</th>
+									<th>Precio base para <br> 1 usuario</th>
+									<th>Precio por usuario adicional <br> en red</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="2" class="blue-light">
+										LICENCIAMIENTO <br>
+										ANUAL
+									</td>
+									<td>
+										Licencia nueva <br>
+										<span class="small">
+											(Multiempresa y Multiusuario)
+										</span>
+									</td>
+									<td>
+										$1,490.00
+									</td>
+									<td>
+										N/A
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Renovación
+									</td>
+									<td>
+										$1,490.00
+									</td>
+									<td>
+										N/A
+									</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="4">
+										Para Contadores, fiscalistas, auditores, administradores y directores de todo perfil de empresas.
+									</td>
+								</tr>
+							</tfoot>
+						</table>
 
-						}
-						?>
 					</div>
+					<button type="button" id="btn-download-contpaqi">
+						<a href="<?= get_template_directory_uri(); ?>/download.php?file_url=<?= get_template_directory_uri(); ?>/assets/images/contpaqi/AGPE_CONTABILIDAD_PRECIOS_CONTPAQI_2021.pdf" target="_blank" rel="noopener noreferrer">Descargar el catálogo completo de precios 2021 PDF</a>
+					</button>
 				</div>
 			</div>
 
