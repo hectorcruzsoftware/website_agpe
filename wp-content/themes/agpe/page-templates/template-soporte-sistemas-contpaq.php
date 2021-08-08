@@ -18,8 +18,10 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h1>Servicio de Contabilidad en Mazatlán</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus velit dicta minima quo iure sed debitis nemo commodi quos voluptas, molestias ut ad magni! Laudantium et commodi repellendus ab.</p>
+					<h1>Sistemas de contabilidad <br> CONTPAQi <br> en Mazatlán Sinaloa</h1>
+					<p>
+						Más de 3 años siendo distribuidores autorizados de licencias, soporte e instalación de sistemas de contabilidad CONTPAQi.
+					</p>
 					<a href="<?= get_the_permalink(ID_CONTACTO) ?>" class="btn-theme-big-icon">Ponerme en contacto</a>
 				</div>
 			</div>
@@ -30,23 +32,126 @@ get_header();
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-8">
 					<div class="card-servicio">
-						<h2>¿Qué es este servicio?</h2>
+						<h2>¿Te ayudamos con tus sistemas de contabilidad CONTPAQi?</h2>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore iure quod perferendis laboriosam voluptatum minus, facilis dolores mollitia repellat officiis ipsa. Eius voluptates modi perferendis nobis, vel exercitationem tenetur earum?
+							Sin duda para nosotros las empresas, CONTPAQi es la herramienta que mejor se ajusta a nuestras labores de contabilidad.
 						</p>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore iure quod perferendis laboriosam voluptatum minus, facilis dolores mollitia repellat officiis ipsa. Eius voluptates modi perferendis nobis, vel exercitationem tenetur earum?
+							Con CONTPAQi puedes llevar el control integral de tu administración, compras, facturas, inventarios, cuentas por cobrar y pagar en tu empresa.
 						</p>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore iure quod perferendis laboriosam voluptatum minus, facilis dolores mollitia repellat officiis ipsa. Eius voluptates modi perferendis nobis, vel exercitationem tenetur earum?
+							En AGPE Contabilidad somo distribuidores autorizados de CONTPAQI en Mazatlán Sinaloa y apoyamos a empresas como la tuya para que faciliten su contabilidad.
 						</p>
 					</div>
 				</div>
 				<div class="col-12 col-sm-12 col-lg-4">
-					<img src="<?= get_template_directory_uri(); ?>/assets/images/servicio1.jpg" alt="" class="img-infografia">
+					<img src="<?= get_template_directory_uri(); ?>/assets/images/sistemas-de-contabilidad-contpaqi-en-mazatlan-sinaloa.jpg" alt="Sistemas de contabilidad CONTPAQi en Mazatlán Sinaloa" class="img-infografia">
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-12">
 
+					<h2 class="header-contpaqi">Precios de CONTPAQi 2021 en Mazatlán Sinaloa</h2>
+					<div class="contpaqi">
+						<?php
+						for ($i = 0; $i < 8; $i++) {
+
+						?>
+							<table>
+								<thead>
+									<tr>
+										<th colspan="2">
+											<img src="<?= get_template_directory_uri(); ?>/assets/images/contpaqi/precio_de_contpaqi_contabilidad_mazatlan_sinaloa.png" alt="Precio de CONTPAQi Contabilidad en Mazatlán Sinaloa" class="img-infografia">
+										</th>
+										<th>Precio base para <br> 1 usuario</th>
+										<th>Precio por usuario adicional <br> en red</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td rowspan="2" class="blue-light">
+											LICENCIAMIENTO <br>
+											ANUAL
+										</td>
+										<td>
+											Licencia nueva
+										</td>
+										<td>
+											$4,190.00
+										</td>
+										<td>
+											$1,190.00
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Renovación
+										</td>
+										<td>
+											$4,090.00
+										</td>
+										<td>
+											$1,190.00
+
+										</td>
+									</tr>
+									<tr>
+										<td rowspan="3" class="blue-dark">
+											LICENCIAMIENTO <br>
+											TRADICIONAL
+
+										</td>
+
+										<td>
+											<strong>Actualización</strong>
+										</td>
+										<td>
+											<strong>$5,190.00</strong>
+										</td>
+										<td>
+											<strong>$1,290.00</strong>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<strong>Actualización especial</strong>
+										</td>
+										<td>
+											<strong>$4,290.00</strong>
+										</td>
+										<td>
+											<strong>$1,190.00</strong>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Usuario adicional <br>
+											<span class="small">(solo en crecimiento de usuario)</span>
+										</td>
+										<td>
+											N/A
+										</td>
+										<td>
+											$1,890.00
+										</td>
+									</tr>
+
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="4">
+											Para contadores, fiscalistas, auditores, administradores y directores de todo perfil de empresas.
+										</td>
+									</tr>
+								</tfoot>
+							</table>
+						<?php
+
+						}
+						?>
+					</div>
+				</div>
+			</div>
 
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-8">
