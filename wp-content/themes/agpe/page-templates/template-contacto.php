@@ -18,8 +18,8 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h1>Contacto con AGPE Contabilidad</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatibus velit dicta minima quo iure sed debitis nemo commodi quos voluptas, molestias ut ad magni! Laudantium et commodi repellendus ab.</p>
+					<h1>CONTACTO</h1>
+					<p>Te dejamos nuestros datos de contacto. Esperamos ser parte de tu empresa y tu equipo muy pronto.</p>
 				</div>
 			</div>
 		</div>
@@ -29,18 +29,20 @@ get_header();
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-8">
 					<div class="card-servicio">
-						<h2>¿Quieres información de inmediato?</h2>
+						<h2>¿Quieres ponerte en contacto de inmediato?</h2>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore iure quod perferendis laboriosam voluptatum minus, facilis dolores mollitia repellat officiis ipsa. Eius voluptates modi perferendis nobis, vel exercitationem tenetur earum?
+							Si necesitas asesoría sobre contabilidad o alguno de nuestros servicios puedes dejarnos un mensaje desde nuestro formulario de contacto. Por lo general <strong>lo respondemos en un plazo no mayor a 1 día hábil</strong>.
 						</p>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore iure quod perferendis laboriosam voluptatum minus, facilis dolores mollitia repellat officiis ipsa. Eius voluptates modi perferendis nobis, vel exercitationem tenetur earum?
+							Si gustas también puedes ponerte en contacto más rápidamente a través de nuestro <strong>Número de WhatsApp</strong> o marcando nuestro <strong>Número telefónico</strong> que atendemos en horarios de trabajo.
 						</p>
-
+						<p>
+							También puedes <strong>visitar nuestra oficina</strong> donde podremos atenderte con gusto.
+						</p>
 					</div>
 				</div>
 				<div class="col-12 col-sm-12 col-lg-4">
-					<img src="<?= get_template_directory_uri(); ?>/assets/images/img-contacto.jpg" alt="" class="img-infografia">
+					<img src="<?= get_template_directory_uri(); ?>/assets/images/contador-en-mazatlan-sinaloa.jpg" alt="Contador Público en Mazatlán Sinaloa | Benjamín Aguirre" class="img-infografia">
 				</div>
 			</div>
 		</div>
