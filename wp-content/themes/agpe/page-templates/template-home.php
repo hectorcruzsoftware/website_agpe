@@ -19,13 +19,11 @@ get_header();
 			<div class="row">
 				<div class="col">
 					<div id="datos-banner">
-						<h1>Despacho Contable en <br>
+						<h1>Contador público en <br>
 							<span>Mazatlán Sinaloa</span>
 						</h1>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-							mauris donec sit morbi eget aliquam molestie. Molestie
-							libero nam in tempus, faucibus.
+							¿Buscas un <strong>contador público</strong>? Te asesoramos en tu contabilidad para que te dediques solamente a impulsar tu negocio o emprendimiento.
 						</p>
 						<a href="<?= get_permalink(ID_CONTACTO) ?>">Ponenerme en contacto</a>
 					</div>
@@ -42,10 +40,10 @@ get_header();
 							<div class="contenido">
 								<i class="fa fa-clock-o" aria-hidden="true"></i>
 								<h3>
-									Contadores Actualizados
+									Contador Público
 								</h3>
 								<p>
-									Aplicamos un modelo de negocio contable vigente, mediante operaciones innovadoras que nos ayudan a mantener actualizada tu empresa para ir un paso adelante de las eventualidades financieras.
+									Con experiencia en negocios de distintos giros, como tecnológicos, alimenticios, construcción, servicios de la salud, empresas de servicios y también asesorando a emprendedores independientes de distintos sectores.
 								</p>
 							</div>
 
@@ -54,10 +52,9 @@ get_header();
 							<div class="contenido">
 								<i class="fa fa-hand-paper-o" aria-hidden="true"></i>
 								<h3>
-									Comprometidos con tu empresa
-								</h3>
+									Comprometido con tu empresa </h3>
 								<p>
-									Tenemos más de 10 años de experiencia en materia fiscal y contable por ello nos hemos convertido en los aliados en contabilidad de múltiples empresas, gracias al compromiso que ponemos en cada proyecto.
+									Como emprendedor y <strong>contador público</strong>, sé que sacar adelante una empresa es una tarea muy demandante. Con nosotros tendrás la seguridad de que tu empresa está en regla con el SAT, mientras tu te enfocas en hacer crecer tu negocio.
 								</p>
 							</div>
 						</div>
@@ -68,7 +65,7 @@ get_header();
 									Equipo de Confianza
 								</h3>
 								<p>
-									A través de cada uno de nuestros servicios, brindamos una atención puntual y personalizada para garantizar resultados que se reflejan en el crecimiento y la rentabilidad de tu empresa.
+									Nuestro equipo es 100% profesional y trabajamos codo a codo con nuestros clientes para apoyarle cuando nos necesitan. Nos gusta el trabajo claro con nuestros clientes y estamos siempre abiertos a atender sus dudas.
 								</p>
 							</div>
 
@@ -85,23 +82,27 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-xl-6">
-				<img src="<?= get_template_directory_uri(); ?>/assets/images/quienes-somos-img.jpg" alt="">
+				<img src="<?= get_template_directory_uri(); ?>/assets/images/contador-publico-en-mazatlan-sinaloa.jpg" alt="Benjamín Aguirre, Contador Público en Mazatlán Sinaloa">
 			</div>
 			<div class="col-sm-12 col-xl-6">
 				<h2>
 					¿Quienes Somos?
 				</h2>
 				<p>
-					Somos contadores públicos determinados. Por ello, buscamos que Despacho Contable México sea reconocido a nivel nacional, no sólo por ser prestadores de servicios en materia contable, sino por ser los mejores aliados para tu negocio o empresa, porque nos satisface crecer de la mano de nuestros clientes.
+					Un <strong>despacho contable en Mazatlán</strong>, con más de 5 años de experiencia atendiendo las necesidades contables de empresas en Mazatlán y Culiacán Sinaloa, Guadalajara Jalisco, Nayarit y Zacatecas.
 				</p>
 				<p>
-					Ante los constantes cambios en las reformas fiscales, nace Despacho Contable México (DCM), un grupo de contadores públicos totalmente profesionales en la Ciudad de México, quienes compartimos como misión laboral la firme convicción de ofrecer soluciones efectivas y asesoramiento contable y fiscal a cada uno de nuestros clientes, bajo la garantía de recibir una atención personalizada y especializada.
+					Nuestro <strong>despacho contable</strong> nació en Mazatlán Sinaloa en 2016, desde entonces hemos enfocado nuestra energía en abarcar las problemáticas de la industria y las empresas. 
 				</p>
 				<p>
-					Nuestra experiencia en el ramo de la contabilidad en México nos ha otorgado la capacidad de facilitar las relaciones que involucran al fisco y a los contribuyentes. Nuestra calidad, honestidad, confidencialidad, integridad y constancia nos han llevado a mantener una línea de trabajo comprometida y transparente. </p>
-				<a href="<?= get_permalink(ID_QUIENES_SOMOS) ?>">
-					Conocer Más
-				</a>
+					Pueden haber muchos <strong>despachos contables en Mazatlán Sinaloa</strong>, pero la confianza que tendrás con <strong>AGPE Contabilidad</strong> no se consigue en todos lados. 
+				</p>
+				<p>
+					<strong>AGPE Contabilidad</strong> cuenta con experiencia, conocimiento y contactos clave para que nuestros clientes logren la tranquilidad y se enfoquen  al 100% en sus negocios.
+				</p>
+				<p>
+					El núcleo de nuestro trabajo se enfoca en ganar la confianza que las empresas necesitan para tener la seguridad y satisfacción de que sus intereses están en manos profesionales y lograr convertirnos en socios a largo plazo.
+				</p>
 			</div>
 		</div>
 	</div>
@@ -112,48 +113,40 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2>¿Qué hacemos en AGPE Contabilidad?</h2>
+					<h2>Servicios de nuestro contador público</h2>
 					<p class="texto-info">
-						Somos un despacho contable calificado para emprender las labores relacionadas al área fiscal y contable. Nos hemos distinguido frente a la competencia por ser un despacho de contadores confiable, profesional y especializada al ofrecer servicios en CDMX integrales que adaptamos a las necesidades de cada uno de nuestros clientes.
+						Nuestra firma contable está comprometida con la tranquilidad operacional de nuestros clientes, lo cual hemos venido logrando a través de la calidad de nuestros servicios y su preferencia. Cada vez somos mejores profesionistas, puedes consultar aquí nuestros servicios de contabilidad.
 					</p>
 
 					<div class="servicios">
 						<div class="servicio">
 							<i class="fa fa-usd" aria-hidden="true"></i>
 							<h3>
-								Servicio de Contabilidad
+								Asesoría Contable
 							</h3>
 							<p>
-								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
+								Es la asesoría que toda actividad que se haga llamar empresa o negocio debe considerar para trabajar en regla con el SAT y poder crecer. Resolvemos tus dudas si vas a iniciar o ya tienes un negocio.
 							</p>
-							<p>
-								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
-							</p>
+
 							<a href="<?= get_permalink(ID_SERVICIO_CONTABILIDAD) ?>">Conocer mas</a>
 						</div>
 						<div class="servicio border-card">
 							<i class="fa fa-folder-open-o" aria-hidden="true"></i>
 							<h3>
-								Consultoría Administrativa
+								Asesoría Administrativa
 							</h3>
 							<p>
-								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
-							</p>
-							<p>
-								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
+								Es el tipo de asesoría que los negocios aprovechan para hacer que sus empresas trabajen de la manera más organizada posible y aprovechando al máximo los recursos y el desempeño de su personal.
 							</p>
 							<a href="<?= get_permalink(ID_SERVICIO_CONSULTORIA_ADMINISTRATIVA) ?>">Conocer mas</a>
 						</div>
 						<div class="servicio">
 							<i class="fa fa-calculator" aria-hidden="true"></i>
 							<h3>
-								Consultoría Fiscal
+								Asesoría Fiscal
 							</h3>
 							<p>
-								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
-							</p>
-							<p>
-								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
+								Gestionamos tus obligaciones tributarias e impuestos ante el SAT. Aplica tanto a persona física como a persona moral y para poder aplicarse se debe tener un control de ingresos y egresos de la cuenta de tu empresa.
 							</p>
 							<a href="<?= get_permalink(ID_SERVICIO_CONSULTORIA_FISCAL) ?>">Conocer mas</a>
 						</div>
@@ -170,26 +163,26 @@ get_header();
 						<div class="servicio">
 							<i class="fa fa-university" aria-hidden="true"></i>
 							<h3>
-								Regulación de Obligaciones Fiscales
+								Regulación Fiscal
 							</h3>
 							<p>
-								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
+								En pocas palabras, son todos los medios que las autoridades como el SAT, IMSS, INFONAVIT, etc. ofrecen a sus contribuyentes para ponerse al corriente con deudas de impuestos o cuotas.
 							</p>
 							<p>
-								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
+								Estos procesos se puede llevar a cabo de forma voluntaria o de manera obligatoria.
 							</p>
 							<a href="<?= get_permalink(ID_SERVICIO_REGULACION_FISCAL) ?>">Conocer mas</a>
 						</div>
 						<div class="servicio border-card">
 							<i class="fa fa-gavel" aria-hidden="true"></i>
 							<h3>
-								Soporte en Sistemas Contpaq
+								Sistemas de Contabilidad CONTPAQi
 							</h3>
 							<p>
-								Contamos con un alto nivel contable, el cual designamos como nuestro servicio central para llevar un adecuado registro de la contabilidad de nuestros clientes, basado en las Normas de Información Financiera y así mismo, brindar un asesoramiento íntegro y completo que les ayude a tomar decisiones certeras en asuntos financieros.
+								Sin duda para nosotros las empresas, CONTPAQi es la herramienta que mejor se ajusta a nuestras labores de contabilidad.
 							</p>
 							<p>
-								Somos un despacho contable vanguardista, nos mantenemos actualizados para ofrecer siempre un servicio apegado a la ley y a las transformaciones del sistema contable. Por lo tanto, nos beneficiamos de las nuevas tecnologías para realizar procesos efectivos y diligentes de contabilidad electrónica.
+								Con CONTPAQi puedes llevar el control integral de tu administración, compras, facturas, inventarios, cuentas por cobrar y pagar en tu empresa.
 							</p>
 							<a href="<?= get_permalink(ID_SERVICIO_SOPORTE_CONTPAQ) ?>">Conocer mas</a>
 						</div>

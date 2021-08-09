@@ -35,7 +35,7 @@ defined('ABSPATH') || exit;
 						<li><a href="mailto:<?= EMAIL; ?>">
 								<i class="fa fa-envelope" aria-hidden="true"></i> <span><?= EMAIL; ?></span></li>
 						</a>
-						<li><span>Permítenos poner nuestra experiencia a tu servicio. <a href="<?= get_permalink(ID_CONTACTO); ?>">¡<span class="font-weight-bold text-secundario">Contáctanos</span>!</a></span></li>
+						<li><span>Toda nuestra experiencia a tu servicio. <a href="<?= get_permalink(ID_CONTACTO); ?>">¡<span class="font-weight-bold text-secundario">Contáctanos</span>!</a></span></li>
 					</ul>
 				</div>
 

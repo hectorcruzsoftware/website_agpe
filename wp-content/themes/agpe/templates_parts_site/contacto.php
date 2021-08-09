@@ -53,7 +53,7 @@ defined('ABSPATH') || exit;
 											<?php
 											$menu_name = 'top-menu';
 											$array_menu = wp_get_nav_menu_items($menu_name);
-											$uri_menu = "/servicios";
+											$uri_menu = "/servicios-de-contabilidad-en-mazatlan";
 
 											foreach ($array_menu as $key => $value) {
 												/**aqui busco el menu que me interesa, el de servicios */
@@ -124,7 +124,7 @@ defined('ABSPATH') || exit;
 						</div>
 						<div class="dato">
 							<i class="fa fa-phone" aria-hidden="true"></i>
-							<p><?= TELEFONO; ?></p>
+							<p><?= TELEFONO_FORMATO; ?></p>
 						</div>
 						<div class="dato">
 							<i class="fa fa-clock-o" aria-hidden="true"></i>
