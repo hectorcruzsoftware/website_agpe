@@ -48,10 +48,12 @@ get_header();
 					?>
 					<h2>Contacto y aviso de privacidad</h2>
 					<ul>
+						<li><a href="/aviso-de-privacidad" target="_new">Aviso de Privacidad</a></li>
 						<li><a href="<?= GOOGLE_MAPS; ?>" target="_new"><?= DIRECCION; ?></a></li>
 						<li><a href="tel:+<?= TELEFONO; ?>" target="_new">Teléfono de oficina: <?= TELEFONO; ?></a></li>
 						<li><a href="<?= WHATSAPP_MENSAJE_LINK; ?>" target="_new">Teléfono de WhatsApp: <?= WHATSAPP; ?></a></li>
 						<li><a href="mailto:<?= EMAIL; ?>" target="_new">Correo de contacto: <?= EMAIL; ?></a></li>
+						<li><a href="<?= FACEBOOK; ?>" target="_new">Nuestra página de Facebook</a></li>
 					</ul>
 				</div>
 			</div>
