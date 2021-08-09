@@ -10,12 +10,8 @@ if (!WP_DEBUG) {
 	{
 		wp_register_script('recaptcha_login', 'https://www.google.com/recaptcha/api.js');
 		wp_enqueue_script('recaptcha_login');
-
-
-
-		wp_enqueue_style('login_enqueue_scripts', get_template_directory_uri() . '/css/wordpress.css', array(), time());
+		wp_enqueue_style('login_enqueue_scripts', get_template_directory_uri() . '/css/wordpress.css', array(), WP_DEBUG ? time() : 1);
 	}
-
 
 
 
