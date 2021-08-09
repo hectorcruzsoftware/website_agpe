@@ -39,52 +39,83 @@ defined('ABSPATH') || exit;
 							?>
 								<p>
 									<?php
-									switch (!home_url() . $item_menu->url . '/') {
+									switch (home_url() . $item_menu->url . '/') {
 										case (get_permalink(ID_SERVICIO_CONTABILIDAD)):
-											echo 'Mensjae';
+									?>
+								<p>
+									Asesoría para toda actividad que se haga llamar empresa o negocio debe considerar para trabajar en regla con el SAT y poder crecer.
+								</p>
+
+							<?php
 											break;
 										case (get_permalink(ID_SERVICIO_CONSULTORIA_ADMINISTRATIVA)):
-											echo 'Mensjae';
-											break;
-										case (get_permalink(ID_SERVICIO_CONSULTORIA_FISCAL)):
-											echo 'Mensjae';
-											break;
-										case (get_permalink(ID_SERVICIO_REGULACION_FISCAL)):
-											echo 'Mensjae';
-											break;
-										case (get_permalink(ID_SERVICIO_SOPORTE_CONTPAQ)):
-											echo 'Mensjae';
-											break;
-										default:
-											echo 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus repudiandae architecto, sunt recusandae officiis explicabo reiciendis voluptas est. Magni necessitatibus, eum qui optio molestiae tenetur tempore amet doloribus dolores.';
-											break;
-									}
-									?>
-								</p>
-							<?php
-							} else {
 							?>
 								<p>
-									<?php
-									if ($item_menu->description != '') {
-										echo $item_menu->description;
-									} else {
-									?>
-										-
-									<?php
-									}
-									?>
+									Es el tipo de asesoría que los negocios aprovechan para hacer que sus empresas trabajen de la manera más organizada posible y aprovechando al máximo los recursos y el desempeño de su personal.
 								</p>
+
 							<?php
+											break;
+										case (get_permalink(ID_SERVICIO_CONSULTORIA_FISCAL)):
+							?>
+								<p>
+									Gestiona tus obligaciones tributarias e impuestos ante el SAT. Estas obligaciones fiscales aplican tanto a persona física como a persona moral y para poder aplicarse se debe tener un control de ingresos y egresos de la cuenta de tu empresa.
+								</p>
+
+							<?php
+											break;
+										case (get_permalink(ID_SERVICIO_REGULACION_FISCAL)):
+							?>
+								<p>
+									En pocas palabras, son todos los medios que las autoridades como el SAT, IMSS, INFONAVIT, etc. ofrecen a sus contribuyentes para ponerse al corriente con deudas de impuestos o cuotas. Estos procesos se puede llevar a cabo de forma voluntaria o de manera obligatoria.
+								</p>
+
+							<?php
+											break;
+										case (get_permalink(ID_SERVICIO_SOPORTE_CONTPAQ)):
+							?>
+								<p>
+									Sin duda para nosotros las empresas, CONTPAQi es la herramienta que mejor se ajusta a nuestras labores de contabilidad.
+								</p>
+
+							<?php
+											break;
+										default:
+							?>
+								<p>
+									-
+								</p>
+
+						<?php
+
+											break;
+									}
+						?>
+						</p>
+					<?php
+							} else {
+					?>
+						<p>
+							<?php
+								if ($item_menu->description != '') {
+									echo $item_menu->description;
+								} else {
+							?>
+								-
+							<?php
+								}
+							?>
+						</p>
+					<?php
 							}
-							?>
-							<?php
-							if ($current_uri == $uri_menu) {
-							?>
-								<a href="<?= $item_menu->url; ?>" class="btn-theme">Más Información</a>
-							<?php
-							}
-							?>
+					?>
+					<?php
+					if ($current_uri == $uri_menu) {
+					?>
+						<a href="<?= $item_menu->url; ?>" class="btn-theme">Más Información</a>
+					<?php
+					}
+					?>
 						</div>
 					</div>
 	<?php
