@@ -404,81 +404,86 @@ get_header();
 						<h3>Preguntas comunes sobre CONTPAQi</h3>
 						<div class="pregunta">
 							<h4 data-toggle="collapse" data-target="#pregunta-frecuente-1" aria-expanded="false" aria-controls="pregunta-frecuente-1">
-								¿Cuándo necesito asesoría contable?
+								¿Qué costo tiene la instalación del sistema CONTPAQi?
 								<span data-toggle="collapse" data-target="#pregunta-frecuente-1" aria-expanded="false" aria-controls="pregunta-frecuente-1">
 									<i class="fa fa-chevron-right" aria-hidden="true"></i>
 								</span>
 							</h4>
 							<div class="collapse" id="pregunta-frecuente-1">
 								<div class="">
-									Cuando vas a iniciar un negocio y no sabes que requisitos te pide la autoridad para iniciar operaciones. Esto varía según tu actividad o giro de negocio.
+									El servicio de instalación es <strong>GRATIS</strong>, solamente debes pagar el costo de la licencia que requieras para tu negocio. Nosotros cobramos un servicio de soporte cuando el equipo en que se instalará tu sistema tenga algún problema técnico(virus, mala configuración, etc.) que requiera para que <strong>CONTPAQi</strong> pueda funcionar.
 								</div>
 							</div>
 						</div>
 						<div class="pregunta">
 							<h4 data-toggle="collapse" data-target="#pregunta-frecuente-2" aria-expanded="false" aria-controls="pregunta-frecuente-2">
-								¿Cómo me registro mi negocio en el SAT?
+								¿Puedo migrar mi información a una versión de CONTPAQi?
 								<span data-toggle="collapse" data-target="#pregunta-frecuente-2" aria-expanded="false" aria-controls="pregunta-frecuente-2">
 									<i class="fa fa-chevron-right" aria-hidden="true"></i>
 								</span>
 							</h4>
 							<div class="collapse" id="pregunta-frecuente-2">
 								<div class="">
-									Una vez que ya sabes que régimen fiscal te conviene, se debe <a href="https://citas.sat.gob.mx/citasat/agregarcita.aspx" target="_blank" rel="noopener noreferrer"><strong>agendar una cita en el SAT</strong></a> para obtener la firma electrónica. Esta firma es la base para realizar otros trámites y poder emitir facturas a tus clientes. </div>
+									Si, los <strong>sistemas de contabilidad CONTPAQi</strong> están diseñados para poder recibir información de otras versiones. Ese soporte es <strong>GRATIS</strong> cuando contratas o renuevas tu licencia con nosotros.
+								</div>
 							</div>
 						</div>
 
 						<div class="pregunta">
 							<h4 data-toggle="collapse" data-target="#pregunta-frecuente-3" aria-expanded="false" aria-controls="pregunta-frecuente-3">
-								¿Qué régimen fiscal me conviene más?
+								¿Se puede recuperar mi información si se dañó mi computadora?
 								<span data-toggle="collapse" data-target="#pregunta-frecuente-3" aria-expanded="false" aria-controls="pregunta-frecuente-3">
 									<i class="fa fa-chevron-right" aria-hidden="true"></i>
 								</span>
 							</h4>
 							<div class="collapse" id="pregunta-frecuente-3">
 								<div class="">
-									Depende de tu actividad, profesión y tamaño de negocio, para ello el SAT tiene un <a href="https://www.sat.gob.mx/consulta/09788/emprendedor-conoce-los-regimenes-fiscales" target="_blank" rel="noopener noreferrer"><strong>catálogo</strong></a> de regímenes fiscales donde puedes identificar tu caso en particular. Es recomendable que esto lo hagas con asesoría contable profesional. </div>
+									Nuestra recomendación es que se revise tu equipo para descartar algún daño físico en tu disco duro. Si en tu caso el problema no es el disco duro muy probablemente podrás recuperar tu información de CONTPAQi.
+								</div>
+								<div class="mt-2">
+									En casos muy extremos donde el disco duro queda ilegible, te asesoramos para que recibas soporte especializado en recuperación de datos.
+								</div>
 							</div>
 						</div>
 
 						<div class="pregunta">
 							<h4 data-toggle="collapse" data-target="#pregunta-frecuente-5" aria-expanded="false" aria-controls="pregunta-frecuente-5">
-								¿Qué pasa si no registro mi negocio ante el SAT?
+								¿Cuál es el costo por soporte técnico en CONTPAQi?
 								<span data-toggle="collapse" data-target="#pregunta-frecuente-5" aria-expanded="false" aria-controls="pregunta-frecuente-5">
 									<i class="fa fa-chevron-right" aria-hidden="true"></i>
 								</span>
 							</h4>
 							<div class="collapse" id="pregunta-frecuente-5">
 								<div class="">
-									Primero que nada estás limitando el crecimiento de tu empresa por que no podrás emitir facturas a tus clientes. Por otro lado el SAT te invitará a regularizar tu negocio e incluso aplicará las multas y clausuras correspondientes. <strong>¡Todos debemos estar registrados si queremos crecer!</strong>
+									Todo soporte tiene un costo de <strong>$400.00 MXN por hora o fracción</strong>. El total de la asistencia dependerá de la complejidad de tu problema. En caso de que se extienda el soporte en horas, te apoyaremos con una tarifa especial para ayudar la economía de tu negocio.
 								</div>
 							</div>
 						</div>
 
 						<div class="pregunta">
 							<h4 data-toggle="collapse" data-target="#pregunta-frecuente-6" aria-expanded="false" aria-controls="pregunta-frecuente-6">
-								¿Tiene algún costo registrarme ante el SAT?
+								¿Tienen soporte presencial o remoto?
 								<span data-toggle="collapse" data-target="#pregunta-frecuente-6" aria-expanded="false" aria-controls="pregunta-frecuente-6">
 									<i class="fa fa-chevron-right" aria-hidden="true"></i>
 								</span>
 							</h4>
 							<div class="collapse" id="pregunta-frecuente-6">
 								<div class="">
-									Todos los trámites ante el SAT son gratis. Al contratar la asesoría contable de <strong>AGPE Contabilidad</strong> nos encargaremos de que tu trámite sea lo más fácil y rápido posible.
+									Ambas, podemos asistir a tu negocio siempre y cuando estés en la ciudad de <strong>Mazatlán Sinaloa</strong>. También podemos apoyarte vía remota. Esto depende de que tan complejo sea tu situación.
 								</div>
 							</div>
 						</div>
 
 						<div class="pregunta">
 							<h4 data-toggle="collapse" data-target="#pregunta-frecuente-4" aria-expanded="false" aria-controls="pregunta-frecuente-4">
-								¿Qué debo pagar cuando ya estoy registrado en el SAT?
+								¿Cuál es el costo de los timbres para el sistema de facturación?
 								<span data-toggle="collapse" data-target="#pregunta-frecuente-4" aria-expanded="false" aria-controls="pregunta-frecuente-4">
 									<i class="fa fa-chevron-right" aria-hidden="true"></i>
 								</span>
 							</h4>
 							<div class="collapse" id="pregunta-frecuente-4">
 								<div class="">
-									Una vez que ya estás registrado, necesitas los servicios de un contador para que lleve a cabo el control de tus operaciones y haga tu declaración de impuestos. Las tarifas de este servicio varían según tu régimen fiscal y tus impuestos se calculan en base a tus operaciones realizadas durante tu periodo de operación.
+									<strong>Los timbres son ilimitados</strong> cuando contratas la licencia del sistema de facturación anual. Por lo tanto, no te preocupes por cuantas facturas necesitas timbrar.
 								</div>
 							</div>
 						</div>
