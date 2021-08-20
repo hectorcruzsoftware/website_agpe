@@ -70,6 +70,17 @@ function my_phpmailer_example($phpmailer)
 }
 
 
+/**agrango el favicon */
+
+add_action('wp_head', 'ilc_favicon');
+function ilc_favicon()
+{
+	echo "<link rel='shortcut icon' href='" . get_stylesheet_directory_uri() . "/assets/images/agpe_contabilidad.png' />" . "\n";
+}
+
+
+
+
 
 require_once(get_template_directory() . '/php_funciones_tema/seo_metas_tags.php');
 require_once(get_template_directory() . '/php_funciones_tema/form_contacto.php');
